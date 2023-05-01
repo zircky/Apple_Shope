@@ -1,0 +1,11 @@
+	{
+		name: '',
+		slug: '',
+		description:'',
+		price: ,
+		categoryId: ,
+		images: [''],
+		colorsId: ,
+		modelsId: ,
+		storageCapacityId:
+	},
