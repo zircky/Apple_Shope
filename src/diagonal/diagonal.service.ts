@@ -9,26 +9,26 @@ export class DiagonalService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const diagonal = await this.prisma.storageCapacity.findUnique({
 			where: { id },
 			select: returnDiagonalObject
 		})
-		if (!storageCapacity) {
+		if (!diagonal) {
 			throw new NotFoundException('storageCapacity not found')
 		}
-		return storageCapacity
+		return diagonal
 	}
 	async bySlug(slug: string) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const diagonal = await this.prisma.storageCapacity.findUnique({
 			where: {
 				slug
 			},
 			select: returnDiagonalObject
 		})
-		if (!storageCapacity) {
+		if (!diagonal) {
 			throw new NotFoundException('storage capacity not found')
 		}
-		return storageCapacity
+		return diagonal
 	}
 	async getAll() {
 		return this.prisma.storageCapacity.findMany({

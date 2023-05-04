@@ -117,12 +117,12 @@ export const modelsData = [
 	{
 		id: 24,
 		name: 'Apple iPad Pro 11 (2022)',
-		slug: 'apple-ipad-pro-11-2021'
+		slug: 'apple-ipad-pro-11-2022'
 	},
 	{
 		id: 25,
 		name: 'Apple iPad Pro 12.9 (2022)',
-		slug: 'apple-ipad-pro-12-9-2021'
+		slug: 'apple-ipad-pro-12-9-2022'
 	},
 	{
 		id: 26,
@@ -157,12 +157,12 @@ export const modelsData = [
 	{
 		id: 32,
 		name: 'Apple MacBook Pro 14" (M1 Pro; 2021)',
-		slug: 'macbook-pro-14-m1-pro-2022'
+		slug: 'macbook-pro-14-m1-pro-2021'
 	},
 	{
 		id: 33,
 		name: 'Apple MacBook Pro 16" (M1 Pro; 2021)',
-		slug: 'macbook-pro-16-m1-pro-2022'
+		slug: 'macbook-pro-16-m1-pro-2021'
 	},
 	{
 		id: 34,

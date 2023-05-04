@@ -62,6 +62,9 @@ model Product {
   gpu   GPU? @relation(fields: [gpuId], references: [id])
   gpuId Int? @map("gpu_id")
 
+  ram   RAM? @relation(fields: [ramId], references: [id])
+  ramId Int? @map("ram_id")
+
   diagonal   Diagonal? @relation(fields: [diagonalId], references: [id])
   diagonalId Int?      @map("diagonal_id")
 
@@ -143,6 +146,17 @@ model CPU {
 }
 
 model GPU {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  name String @unique
+  slug String @unique
+
+  products Product[]
+}
+
+model RAM {
   id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")

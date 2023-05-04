@@ -1,4 +1,4 @@
-export const cpuData = [
+export const strapTypeData = [
 	{
 		id: 1,
 		name: 'Alpine',

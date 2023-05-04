@@ -9,26 +9,26 @@ export class StrapTypeService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const strapType = await this.prisma.storageCapacity.findUnique({
 			where: { id },
 			select: returnStrapTypeObject
 		})
-		if (!storageCapacity) {
+		if (!strapType) {
 			throw new NotFoundException('storageCapacity not found')
 		}
-		return storageCapacity
+		return strapType
 	}
 	async bySlug(slug: string) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const strapType = await this.prisma.storageCapacity.findUnique({
 			where: {
 				slug
 			},
 			select: returnStrapTypeObject
 		})
-		if (!storageCapacity) {
+		if (!strapType) {
 			throw new NotFoundException('storage capacity not found')
 		}
-		return storageCapacity
+		return strapType
 	}
 	async getAll() {
 		return this.prisma.storageCapacity.findMany({

@@ -9,26 +9,26 @@ export class GpuService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const gpu = await this.prisma.storageCapacity.findUnique({
 			where: { id },
 			select: returnGPUObject
 		})
-		if (!storageCapacity) {
+		if (!gpu) {
 			throw new NotFoundException('storageCapacity not found')
 		}
-		return storageCapacity
+		return gpu
 	}
 	async bySlug(slug: string) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const gpu = await this.prisma.storageCapacity.findUnique({
 			where: {
 				slug
 			},
 			select: returnGPUObject
 		})
-		if (!storageCapacity) {
+		if (!gpu) {
 			throw new NotFoundException('storage capacity not found')
 		}
-		return storageCapacity
+		return gpu
 	}
 	async getAll() {
 		return this.prisma.storageCapacity.findMany({

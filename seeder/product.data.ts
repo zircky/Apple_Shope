@@ -3992,3 +3992,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 5
 	}
 ]
+
+export const product_iPad: IProduct[] = []
+
+export const product_apple_Watch: IProduct[] = []

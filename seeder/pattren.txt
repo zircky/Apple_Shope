@@ -1,11 +1,61 @@
+	Product iPhone
 	{
+	    id: 0-200,
 		name: '',
 		slug: '',
 		description:'',
 		price: ,
-		categoryId: ,
+		categoryId:1 ,
 		images: [''],
 		colorsId: ,
 		modelsId: ,
 		storageCapacityId:
 	},
+
+	Prodect iPad
+	{
+		id: 201-400,
+		name: '',
+		slug: '',
+		description:'',
+		price: ,
+		categoryId:2 ,
+		images: [''],
+		colorsId: ,
+		modelsId: ,
+		communicationOptionsId: ,
+		storageCapacityId:
+	},
+
+	Product Apple Watch
+		{
+    		id: 401-800,
+    		name: '',
+    		slug: '',
+    		description:'',
+    		price: ,
+    		categoryId:3 ,
+    		images: [''],
+    		colorsId: ,
+    		modelsId: ,
+    		sizeId: ,
+    		strapTypeId ,
+    	},
+
+    Product Mac
+    	{
+    		id: 801-1000,
+    		name: '',
+    		slug: '',
+    		description:'',
+    		price: ,
+    		categoryId:4 ,
+    		images: [''],
+    		colorsId: ,
+    		modelsId: ,
+            cpuId: ,
+            gpuId: ,
+            diagonalId: ,
+            ramId: ,
+    		storageCapacityId:
+    	},

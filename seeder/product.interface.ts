@@ -11,6 +11,7 @@ export interface IProduct {
 	communicationOptionsId?: number | null
 	cpuId?: number | null
 	gpuId?: number | null
+	ramId?: number | null
 	diagonalId?: number | null
 	sizeId?: number | null
 	strapTypeId?: number | null

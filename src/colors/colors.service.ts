@@ -9,26 +9,26 @@ export class ColorsService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const color = await this.prisma.storageCapacity.findUnique({
 			where: { id },
 			select: returnColorsObject
 		})
-		if (!storageCapacity) {
+		if (!color) {
 			throw new NotFoundException('storageCapacity not found')
 		}
-		return storageCapacity
+		return color
 	}
 	async bySlug(slug: string) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const color = await this.prisma.storageCapacity.findUnique({
 			where: {
 				slug
 			},
 			select: returnColorsObject
 		})
-		if (!storageCapacity) {
+		if (!color) {
 			throw new NotFoundException('storage capacity not found')
 		}
-		return storageCapacity
+		return color
 	}
 	async getAll() {
 		return this.prisma.storageCapacity.findMany({

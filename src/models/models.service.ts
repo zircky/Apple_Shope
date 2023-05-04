@@ -9,26 +9,26 @@ export class ModelsService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const model = await this.prisma.storageCapacity.findUnique({
 			where: { id },
 			select: returnModelsObject
 		})
-		if (!storageCapacity) {
+		if (!model) {
 			throw new NotFoundException('storageCapacity not found')
 		}
-		return storageCapacity
+		return model
 	}
 	async bySlug(slug: string) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const model = await this.prisma.storageCapacity.findUnique({
 			where: {
 				slug
 			},
 			select: returnModelsObject
 		})
-		if (!storageCapacity) {
+		if (!model) {
 			throw new NotFoundException('storage capacity not found')
 		}
-		return storageCapacity
+		return model
 	}
 	async getAll() {
 		return this.prisma.storageCapacity.findMany({

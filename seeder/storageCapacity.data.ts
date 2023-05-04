@@ -1,4 +1,4 @@
-export const cpuData = [
+export const storageCapacityData = [
 	{
 		id: 1,
 		name: '64 GB',

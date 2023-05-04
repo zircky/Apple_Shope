@@ -19,10 +19,11 @@ import { GpuModule } from './gpu/gpu.module';
 import { DiagonalModule } from './diagonal/diagonal.module';
 import { SizeModule } from './size/size.module';
 import { StrapTypeModule } from './strap-type/strap-type.module';
+import { RamModule } from './ram/ram.module';
 
 
 @Module({
-  imports: [ConfigModule.forRoot(), AuthModule, UserModule, ProductModule, ReviewModule, CategoryModule, OrderModule, StatisticsModule, PaginationModule, StorageCapacityModule, ColorsModule, ModelsModule, CommunicationOptionsModule, CpuModule, GpuModule, DiagonalModule, SizeModule, StrapTypeModule],
+  imports: [ConfigModule.forRoot(), AuthModule, UserModule, ProductModule, ReviewModule, CategoryModule, OrderModule, StatisticsModule, PaginationModule, StorageCapacityModule, ColorsModule, ModelsModule, CommunicationOptionsModule, CpuModule, GpuModule, DiagonalModule, SizeModule, StrapTypeModule, RamModule],
   controllers: [],
   providers: [PrismaService],
 })

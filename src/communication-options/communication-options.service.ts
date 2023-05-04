@@ -9,26 +9,26 @@ export class CommunicationOptionsService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const communicationOptions = await this.prisma.storageCapacity.findUnique({
 			where: { id },
 			select: returnCommunicationOptionsObject
 		})
-		if (!storageCapacity) {
+		if (!communicationOptions) {
 			throw new NotFoundException('storageCapacity not found')
 		}
-		return storageCapacity
+		return communicationOptions
 	}
 	async bySlug(slug: string) {
-		const storageCapacity = await this.prisma.storageCapacity.findUnique({
+		const communicationOptions = await this.prisma.storageCapacity.findUnique({
 			where: {
 				slug
 			},
 			select: returnCommunicationOptionsObject
 		})
-		if (!storageCapacity) {
+		if (!communicationOptions) {
 			throw new NotFoundException('storage capacity not found')
 		}
-		return storageCapacity
+		return communicationOptions
 	}
 	async getAll() {
 		return this.prisma.storageCapacity.findMany({
