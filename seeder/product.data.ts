@@ -2,6 +2,7 @@ import { IProduct } from './product.interface'
 
 export const product_iPhone: IProduct[] = [
 	{
+		id: 1,
 		name: 'Apple iPhone SE 3 2022 64 ГБ (PRODUCT)RED',
 		slug: 'apple_iphone_se_3_2022_64_gb_product_red',
 		description:
@@ -16,6 +17,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 2,
 		name: 'Apple iPhone SE 3 2022 128 ГБ (PRODUCT)RED',
 		slug: 'apple_iphone_se_3_2022_128_gb_product_red',
 		description:
@@ -30,6 +32,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 3,
 		name: 'Apple iPhone SE 3 2022 256 ГБ (PRODUCT)RED',
 		slug: 'apple_iphone_se_3_2022_256_gb_product_red',
 		description:
@@ -44,6 +47,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 4,
 		name: 'Apple iPhone SE 3 2022 64 ГБ белый',
 		slug: 'apple_iphone_se_3_2022_64_gb_belyy',
 		description:
@@ -58,6 +62,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 5,
 		name: 'Apple iPhone SE 3 2022 128 ГБ белый',
 		slug: 'apple_iphone_se_3_2022_128_gb_belyy',
 		description:
@@ -72,6 +77,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 6,
 		name: 'Apple iPhone SE 3 2022 256 ГБ белый',
 		slug: 'apple_iphone_se_3_2022_256_gb_belyy',
 		description:
@@ -86,6 +92,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 7,
 		name: 'Apple iPhone SE 3 2022 64 ГБ черный',
 		slug: 'apple_iphone_se_3_2022_64_gb_chernyy',
 		description:
@@ -100,6 +107,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 8,
 		name: 'Apple iPhone SE 3 2022 128 ГБ черный',
 		slug: 'apple_iphone_se_3_2022_128_gb_chernyy',
 		description:
@@ -114,6 +122,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 9,
 		name: 'Apple iPhone SE 3 2022, 256 ГБ, черный',
 		slug: 'apple_iphone_se_3_2022_256_gb_chernyy',
 		description:
@@ -128,6 +137,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 10,
 		name: 'Apple iPhone 11 64GB (Чёрный | Black)',
 		slug: 'apple-iphone-11-64gb-black',
 		description:
@@ -140,6 +150,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 11,
 		name: 'Apple iPhone 11 128GB (Чёрный | Black)',
 		slug: 'apple-iphone-11-128gb-black',
 		description:
@@ -152,6 +163,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 12,
 		name: 'Apple iPhone 11 256GB (Чёрный | Black)',
 		slug: 'apple-iphone-11-256gb-black',
 		description:
@@ -164,6 +176,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 13,
 		name: 'Apple iPhone 11 64GB (Белый | White)',
 		slug: 'apple-iphone-11-64gb-white',
 		description:
@@ -176,6 +189,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 14,
 		name: 'Apple iPhone 11 128GB (Белый | White)',
 		slug: 'apple-iphone-11-128gb-white',
 		description:
@@ -188,6 +202,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 15,
 		name: 'Apple iPhone 11 256GB (Белый | White)',
 		slug: 'apple-iphone-11-256gb-white',
 		description:
@@ -200,6 +215,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 16,
 		name: 'Apple iPhone 11 64GB (PRODUCT)RED',
 		slug: 'apple-iphone-11-64gb-productred',
 		description:
@@ -214,6 +230,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 17,
 		name: 'Apple iPhone 11 128GB (PRODUCT)RED',
 		slug: 'apple-iphone-11-128gb-productred',
 		description:
@@ -228,6 +245,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 18,
 		name: 'Apple iPhone 11 256GB (PRODUCT)RED',
 		slug: 'apple-iphone-11-256gb-productred',
 		description:
@@ -242,6 +260,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 19,
 		name: 'Apple iPhone 11 64GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-11-64gb-purple',
 		description:
@@ -254,6 +273,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 20,
 		name: 'Apple iPhone 11 128GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-11-128gb-purple',
 		description:
@@ -266,6 +286,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 21,
 		name: 'Apple iPhone 11 256GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-11-256gb-purple',
 		description:
@@ -278,6 +299,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 22,
 		name: 'Apple iPhone 11 64GB (Зелёный | Green)',
 		slug: 'apple-iphone-11-64gb-green',
 		description:
@@ -290,6 +312,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 23,
 		name: 'Apple iPhone 11 128GB (Зелёный | Green)',
 		slug: 'apple-iphone-11-128gb-green',
 		description:
@@ -302,6 +325,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 24,
 		name: 'Apple iPhone 11 256GB (Зелёный | Green)',
 		slug: 'apple-iphone-11-256gb-green',
 		description:
@@ -314,6 +338,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 25,
 		name: 'Apple iPhone 11 64GB (Жёлтый | Yellow)',
 		slug: 'apple-iphone-11-64gb-yellow',
 		description:
@@ -326,6 +351,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 26,
 		name: 'Apple iPhone 11 128GB (Жёлтый | Yellow)',
 		slug: 'apple-iphone-11-128gb-yellow',
 		description:
@@ -338,6 +364,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 27,
 		name: 'Apple iPhone 11 256GB (Жёлтый | Yellow)',
 		slug: 'apple-iphone-11-256gb-yellow',
 		description:
@@ -350,6 +377,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 28,
 		name: 'Apple iPhone 11 Pro 512GB Space Gray',
 		slug: 'apple-iphone-11-pro-512gb-space-gray',
 		description:
@@ -364,6 +392,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 4
 	},
 	{
+		id: 29,
 		name: 'Apple iPhone 12 mini 64GB (Чёрный | Black)',
 		slug: 'apple-iphone-12-mini-64gb-black',
 		description:
@@ -378,6 +407,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 30,
 		name: 'Apple iPhone 12 mini 128GB (Чёрный | Black)',
 		slug: 'apple-iphone-12-mini-128gb-black',
 		description:
@@ -392,6 +422,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 31,
 		name: 'Apple iPhone 12 mini 256GB (Чёрный | Black)',
 		slug: 'apple-iphone-12-mini-256gb-black',
 		description:
@@ -406,6 +437,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 32,
 		name: 'Apple iPhone 12 mini 64GB (Белый | White)',
 		slug: 'apple-iphone-12-mini-64gb-white',
 		description:
@@ -420,6 +452,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 33,
 		name: 'Apple iPhone 12 mini 128GB (Белый | White)',
 		slug: 'apple-iphone-12-mini-128gb-white',
 		description:
@@ -434,6 +467,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 34,
 		name: 'Apple iPhone 12 mini 256GB (Белый | White)',
 		slug: 'apple-iphone-12-mini-256gb-white',
 		description:
@@ -448,6 +482,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 35,
 		name: 'Apple iPhone 12 mini 64GB (PRODUCT)RED',
 		slug: 'apple-iphone-12-mini-64gb-productred',
 		description:
@@ -462,6 +497,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 36,
 		name: 'Apple iPhone 12 mini 128GB (PRODUCT)RED',
 		slug: 'apple-iphone-12-mini-128gb-productred',
 		description:
@@ -476,6 +512,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 37,
 		name: 'Apple iPhone 12 mini 256GB (PRODUCT)RED',
 		slug: 'apple-iphone-12-mini-256gb-productred',
 		description:
@@ -490,6 +527,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 38,
 		name: 'Apple iPhone 12 mini 64GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-12-mini-64gb-purple',
 		description:
@@ -504,6 +542,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 39,
 		name: 'Apple iPhone 12 mini 128GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-12-mini-128gb-purple',
 		description:
@@ -518,6 +557,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 40,
 		name: 'Apple iPhone 12 mini 256GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-12-mini-256gb-purple',
 		description:
@@ -532,6 +572,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 41,
 		name: 'Apple iPhone 12 mini 64GB (Зелёный | Green)',
 		slug: 'apple-iphone-12-mini-64gb-green',
 		description:
@@ -546,6 +587,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 42,
 		name: 'Apple iPhone 12 mini 128GB (Зелёный | Green)',
 		slug: 'apple-iphone-12-mini-128gb-green',
 		description:
@@ -560,6 +602,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 43,
 		name: 'Apple iPhone 12 mini 256GB (Зелёный | Green)',
 		slug: 'apple-iphone-12-mini-256gb-green',
 		description:
@@ -574,6 +617,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 44,
 		name: 'Apple iPhone 12 mini 64GB (Синий | Blue)',
 		slug: 'apple-iphone-12-mini-64gb-blue',
 		description:
@@ -588,6 +632,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 45,
 		name: 'Apple iPhone 12 mini 128GB (Синий | Blue)',
 		slug: 'apple-iphone-12-mini-128gb-blue',
 		description:
@@ -602,6 +647,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 46,
 		name: 'Apple iPhone 12 mini 256GB (Синий | Blue)',
 		slug: 'apple-iphone-12-mini-256gb-blue',
 		description:
@@ -616,6 +662,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 47,
 		name: 'Apple iPhone 12 64GB (Чёрный | Black)',
 		slug: 'apple-iphone-12-64gb-black',
 		description:
@@ -628,6 +675,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 48,
 		name: 'Apple iPhone 12 128GB (Чёрный | Black)',
 		slug: 'apple-iphone-12-128gb-black',
 		description:
@@ -640,6 +688,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 49,
 		name: 'Apple iPhone 12 256GB (Чёрный | Black)',
 		slug: 'apple-iphone-12-256gb-black',
 		description:
@@ -652,6 +701,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 50,
 		name: 'Apple iPhone 12 64GB (Белый | White)',
 		slug: 'apple-iphone-12-64gb-white',
 		description:
@@ -664,6 +714,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 51,
 		name: 'Apple iPhone 12 128GB (Белый | White)',
 		slug: 'apple-iphone-12-128gb-white',
 		description:
@@ -676,6 +727,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 52,
 		name: 'Apple iPhone 12 256GB (Белый | White)',
 		slug: 'apple-iphone-12-256gb-white',
 		description:
@@ -688,6 +740,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 53,
 		name: 'Apple iPhone 12 64GB (PRODUCT)RED',
 		slug: 'apple-iphone-12-64gb-productred',
 		description:
@@ -702,6 +755,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 54,
 		name: 'Apple iPhone 12 128GB (PRODUCT)RED',
 		slug: 'apple-iphone-12-128gb-productred',
 		description:
@@ -716,6 +770,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 55,
 		name: 'Apple iPhone 12 256GB (PRODUCT)RED',
 		slug: 'apple-iphone-12-256gb-productred',
 		description:
@@ -730,6 +785,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 56,
 		name: 'Apple iPhone 12 64GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-12-64gb-purple',
 		description:
@@ -742,6 +798,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 57,
 		name: 'Apple iPhone 12 128GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-12-128gb-purple',
 		description:
@@ -754,6 +811,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 58,
 		name: 'Apple iPhone 12 256GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-12-256gb-purple',
 		description:
@@ -766,6 +824,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 59,
 		name: 'Apple iPhone 12 64GB (Зелёный | Green)',
 		slug: 'apple-iphone-12-64gb-green',
 		description:
@@ -778,6 +837,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 60,
 		name: 'Apple iPhone 12 128GB (Зелёный | Green)',
 		slug: 'apple-iphone-12-128gb-green',
 		description:
@@ -790,6 +850,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 61,
 		name: 'Apple iPhone 12 256GB (Зелёный | Green)',
 		slug: 'apple-iphone-12-256gb-green',
 		description:
@@ -802,6 +863,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 62,
 		name: 'Apple iPhone 12 64GB (Синий | Blue)',
 		slug: 'apple-iphone-12-64gb-blue',
 		description:
@@ -814,6 +876,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 1
 	},
 	{
+		id: 63,
 		name: 'Apple iPhone 12 128GB (Синий | Blue)',
 		slug: 'apple-iphone-12-128gb-blue',
 		description:
@@ -826,6 +889,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 64,
 		name: 'Apple iPhone 12 256GB (Синий | Blue)',
 		slug: 'apple-iphone-12-256gb-blue',
 		description:
@@ -838,6 +902,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 65,
 		name: 'Apple iPhone 12 Pro 128GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-12-pro-128gb-graphite',
 		description:
@@ -852,6 +917,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 66,
 		name: 'Apple iPhone 12 Pro 256GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-12-pro-256gb-graphite',
 		description:
@@ -866,6 +932,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 67,
 		name: 'Apple iPhone 12 Pro 512GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-12-pro-512gb-graphite',
 		description:
@@ -880,6 +947,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 4
 	},
 	{
+		id: 68,
 		name: 'Apple iPhone 12 Pro 128GB (Серебристый | Silver)',
 		slug: 'apple-iphone-12-pro-128gb-silver',
 		description:
@@ -894,6 +962,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 69,
 		name: 'Apple iPhone 12 Pro 256GB (Серебристый | Silver)',
 		slug: 'apple-iphone-12-pro-256gb-silver',
 		description:
@@ -908,6 +977,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 70,
 		name: 'Apple iPhone 12 Pro 512GB (Серебристый | Silver)',
 		slug: 'apple-iphone-12-pro-512gb-silver',
 		description:
@@ -922,6 +992,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 4
 	},
 	{
+		id: 71,
 		name: 'Apple iPhone 12 Pro 128GB (Золотой | Gold)',
 		slug: 'apple-iphone-12-pro-128gb-gold',
 		description:
@@ -936,6 +1007,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 72,
 		name: 'Apple iPhone 12 Pro 256GB (Золотой | Gold)',
 		slug: 'apple-iphone-12-pro-256gb-gold',
 		description:
@@ -950,6 +1022,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 73,
 		name: 'Apple iPhone 12 Pro 512GB (Золотой | Gold)',
 		slug: 'apple-iphone-12-pro-512gb-gold',
 		description:
@@ -964,6 +1037,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 4
 	},
 	{
+		id: 74,
 		name: 'Apple iPhone 12 Pro 128GB («Тихоокеанский синий» | Pacific Blue)',
 		slug: 'apple-iphone-12-pro-128gb-pacific-blue',
 		description:
@@ -978,6 +1052,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 2
 	},
 	{
+		id: 75,
 		name: 'Apple iPhone 12 Pro 256GB («Тихоокеанский синий» | Pacific Blue)',
 		slug: 'apple-iphone-12-pro-256gb-pacific-blue',
 		description:
@@ -992,6 +1067,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 3
 	},
 	{
+		id: 76,
 		name: 'Apple iPhone 12 Pro 512GB («Тихоокеанский синий» | Pacific Blue)',
 		slug: 'apple-iphone-12-pro-512gb-pacific-blue',
 		description:
@@ -1006,6 +1082,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 4
 	},
 	{
+		id: 77,
 		name: 'Apple iPhone 12 Pro Max 128GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-12-pro-max-128gb-graphite',
 		description:
@@ -1013,13 +1090,14 @@ export const product_iPhone: IProduct[] = [
 		price: 81990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-graphite.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-graphite.webp'
 		],
 		colorsId: 10,
 		modelsId: 7,
 		storageCapacityId: 2
 	},
 	{
+		id: 78,
 		name: 'Apple iPhone 12 Pro Max 256GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-12-pro-max-256gb-graphite',
 		description:
@@ -1027,13 +1105,14 @@ export const product_iPhone: IProduct[] = [
 		price: 89990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-graphite.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-graphite.webp'
 		],
 		colorsId: 10,
 		modelsId: 7,
 		storageCapacityId: 3
 	},
 	{
+		id: 79,
 		name: 'Apple iPhone 12 Pro Max 512GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-12-pro-max-512gb-graphite',
 		description:
@@ -1041,13 +1120,14 @@ export const product_iPhone: IProduct[] = [
 		price: 92990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-graphite.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-graphite.webp'
 		],
 		colorsId: 10,
 		modelsId: 7,
 		storageCapacityId: 4
 	},
 	{
+		id: 80,
 		name: 'Apple iPhone 12 Pro Max 128GB (Серебристый | Silver)',
 		slug: 'apple-iphone-12-pro-max-128gb-silver',
 		description:
@@ -1055,13 +1135,14 @@ export const product_iPhone: IProduct[] = [
 		price: 81990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-silver.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-silver.webp'
 		],
 		colorsId: 2,
 		modelsId: 7,
 		storageCapacityId: 2
 	},
 	{
+		id: 81,
 		name: 'Apple iPhone 12 Pro Max 256GB (Серебристый | Silver)',
 		slug: 'apple-iphone-12-pro-max-256gb-silver',
 		description:
@@ -1069,13 +1150,14 @@ export const product_iPhone: IProduct[] = [
 		price: 89990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-silver.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-silver.webp'
 		],
 		colorsId: 2,
 		modelsId: 7,
 		storageCapacityId: 3
 	},
 	{
+		id: 82,
 		name: 'Apple iPhone 12 Pro Max 512GB (Серебристый | Silver)',
 		slug: 'apple-iphone-12-pro-max-512gb-silver',
 		description:
@@ -1083,13 +1165,14 @@ export const product_iPhone: IProduct[] = [
 		price: 92990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-silver.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-silver.webp'
 		],
 		colorsId: 2,
 		modelsId: 7,
 		storageCapacityId: 4
 	},
 	{
+		id: 83,
 		name: 'Apple iPhone 12 Pro Max 128GB (Золотой | Gold)',
 		slug: 'apple-iphone-12-pro-max-128gb-gold',
 		description:
@@ -1097,13 +1180,14 @@ export const product_iPhone: IProduct[] = [
 		price: 81990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-gold.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-gold.webp'
 		],
 		colorsId: 1,
 		modelsId: 7,
 		storageCapacityId: 2
 	},
 	{
+		id: 84,
 		name: 'Apple iPhone 12 Pro Max 256GB (Золотой | Gold)',
 		slug: 'apple-iphone-12-pro-max-256gb-gold',
 		description:
@@ -1111,13 +1195,14 @@ export const product_iPhone: IProduct[] = [
 		price: 89990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-gold.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-gold.webp'
 		],
 		colorsId: 1,
 		modelsId: 7,
 		storageCapacityId: 3
 	},
 	{
+		id: 85,
 		name: 'Apple iPhone 12 Pro Max 512GB (Золотой | Gold)',
 		slug: 'apple-iphone-12-pro-max-512gb-gold',
 		description:
@@ -1125,13 +1210,14 @@ export const product_iPhone: IProduct[] = [
 		price: 92990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-gold.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-gold.webp'
 		],
 		colorsId: 1,
 		modelsId: 7,
 		storageCapacityId: 4
 	},
 	{
+		id: 86,
 		name: 'Apple iPhone 12 Pro Max 128GB («Тихоокеанский синий» | Pacific Blue)',
 		slug: 'apple-iphone-12-pro-max-128gb-pacific-blue',
 		description:
@@ -1139,13 +1225,14 @@ export const product_iPhone: IProduct[] = [
 		price: 81990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-pacific-blue.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-pacific-blue.webp'
 		],
 		colorsId: 20,
 		modelsId: 7,
 		storageCapacityId: 2
 	},
 	{
+		id: 87,
 		name: 'Apple iPhone 12 Pro Max 256GB («Тихоокеанский синий» | Pacific Blue)',
 		slug: 'apple-iphone-12-pro-max-256gb-pacific-blue',
 		description:
@@ -1153,13 +1240,14 @@ export const product_iPhone: IProduct[] = [
 		price: 89990,
 		categoryId: 1,
 		images: [
-			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-pacific-blue.webp'
+			'/uploads/images/products/iphone/12/pro/max/apple-iphone-12-pro-max-pacific-blue.webp'
 		],
 		colorsId: 20,
 		modelsId: 7,
 		storageCapacityId: 3
 	},
 	{
+		id: 88,
 		name: 'Apple iPhone 12 Pro Max 512GB («Тихоокеанский синий» | Pacific Blue)',
 		slug: 'apple-iphone-12-pro-max-512gb-pacific-blue',
 		description:
@@ -1174,6 +1262,7 @@ export const product_iPhone: IProduct[] = [
 		storageCapacityId: 4
 	},
 	{
+		id: 89,
 		name: 'Apple iPhone 13 mini 128GB (Синий | Blue)',
 		slug: 'apple-iphone-13-mini-128gb-blue',
 		description:
@@ -1181,13 +1270,14 @@ export const product_iPhone: IProduct[] = [
 		price: 58990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-blue.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-blue.jpg'
 		],
 		colorsId: 8,
 		modelsId: 8,
 		storageCapacityId: 2
 	},
 	{
+		id: 90,
 		name: 'Apple iPhone 13 mini 256GB (Синий | Blue)',
 		slug: 'apple-iphone-13-mini-256gb-blue',
 		description:
@@ -1195,13 +1285,14 @@ export const product_iPhone: IProduct[] = [
 		price: 69990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-blue.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-blue.jpg'
 		],
 		colorsId: 8,
 		modelsId: 8,
 		storageCapacityId: 3
 	},
 	{
+		id: 91,
 		name: 'Apple iPhone 13 mini 512GB (Синий | Blue)',
 		slug: 'apple-iphone-13-mini-512gb-blue',
 		description:
@@ -1209,13 +1300,14 @@ export const product_iPhone: IProduct[] = [
 		price: 75990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-blue.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-blue.jpg'
 		],
 		colorsId: 8,
 		modelsId: 8,
 		storageCapacityId: 4
 	},
 	{
+		id: 92,
 		name: 'Apple iPhone 13 mini 128GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-13-mini-128gb-midnight',
 		description:
@@ -1223,13 +1315,14 @@ export const product_iPhone: IProduct[] = [
 		price: 58990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-midnight.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-midnight.jpg'
 		],
 		colorsId: 16,
 		modelsId: 8,
 		storageCapacityId: 2
 	},
 	{
+		id: 93,
 		name: 'Apple iPhone 13 mini 256GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-13-mini-256gb-midnight',
 		description:
@@ -1237,13 +1330,14 @@ export const product_iPhone: IProduct[] = [
 		price: 69990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-midnight.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-midnight.jpg'
 		],
 		colorsId: 16,
 		modelsId: 8,
 		storageCapacityId: 3
 	},
 	{
+		id: 94,
 		name: 'Apple iPhone 13 mini 512GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-13-mini-512gb-midnight',
 		description:
@@ -1251,13 +1345,14 @@ export const product_iPhone: IProduct[] = [
 		price: 75990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-midnight.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-midnight.jpg'
 		],
 		colorsId: 16,
 		modelsId: 8,
 		storageCapacityId: 4
 	},
 	{
+		id: 95,
 		name: 'Apple iPhone 13 mini 128GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-13-mini-128gb-starlight',
 		description:
@@ -1265,13 +1360,14 @@ export const product_iPhone: IProduct[] = [
 		price: 58990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-starlight.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 8,
 		storageCapacityId: 2
 	},
 	{
+		id: 96,
 		name: 'Apple iPhone 13 mini 256GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-13-mini-256gb-starlight',
 		description:
@@ -1279,13 +1375,14 @@ export const product_iPhone: IProduct[] = [
 		price: 69990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-starlight.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 8,
 		storageCapacityId: 3
 	},
 	{
+		id: 97,
 		name: 'Apple iPhone 13 mini 512GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-13-mini-512gb-starlight',
 		description:
@@ -1293,13 +1390,14 @@ export const product_iPhone: IProduct[] = [
 		price: 75990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-starlight.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 8,
 		storageCapacityId: 4
 	},
 	{
+		id: 98,
 		name: 'Apple iPhone 13 mini 128GB (PRODUCT)RED',
 		slug: 'apple-iphone-13-mini-128gb-productred',
 		description:
@@ -1307,13 +1405,14 @@ export const product_iPhone: IProduct[] = [
 		price: 59990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-productred.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 8,
 		storageCapacityId: 2
 	},
 	{
+		id: 99,
 		name: 'Apple iPhone 13 mini 256GB (PRODUCT)RED',
 		slug: 'apple-iphone-13-mini-256gb-productred',
 		description:
@@ -1321,13 +1420,14 @@ export const product_iPhone: IProduct[] = [
 		price: 69990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-productred.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 8,
 		storageCapacityId: 3
 	},
 	{
+		id: 100,
 		name: 'Apple iPhone 13 mini 512GB (PRODUCT)RED',
 		slug: 'apple-iphone-13-mini-512gb-productred',
 		description:
@@ -1335,13 +1435,14 @@ export const product_iPhone: IProduct[] = [
 		price: 75990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-productred.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 8,
 		storageCapacityId: 4
 	},
 	{
+		id: 101,
 		name: 'Apple iPhone 13 mini 128GB (Зелёный | Green)',
 		slug: 'apple-iphone-13-mini-128gb-green',
 		description:
@@ -1349,13 +1450,14 @@ export const product_iPhone: IProduct[] = [
 		price: 59990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-green.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-green.jpg'
 		],
 		colorsId: 14,
 		modelsId: 8,
 		storageCapacityId: 2
 	},
 	{
+		id: 102,
 		name: 'Apple iPhone 13 mini 256GB (Зелёный | Green)',
 		slug: 'apple-iphone-13-mini-256gb-green',
 		description:
@@ -1363,13 +1465,14 @@ export const product_iPhone: IProduct[] = [
 		price: 69990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-green.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-green.jpg'
 		],
 		colorsId: 14,
 		modelsId: 8,
 		storageCapacityId: 3
 	},
 	{
+		id: 103,
 		name: 'Apple iPhone 13 mini 512GB (Зелёный | Green)',
 		slug: 'apple-iphone-13-mini-512gb-green',
 		description:
@@ -1377,13 +1480,14 @@ export const product_iPhone: IProduct[] = [
 		price: 75990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-green.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-green.jpg'
 		],
 		colorsId: 14,
 		modelsId: 8,
 		storageCapacityId: 4
 	},
 	{
+		id: 104,
 		name: 'Apple iPhone 13 mini 128GB (Розовый | Pink)',
 		slug: 'apple-iphone-13-mini-128gb-pink',
 		description:
@@ -1391,13 +1495,14 @@ export const product_iPhone: IProduct[] = [
 		price: 59990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-pink.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-pink.jpg'
 		],
 		colorsId: 12,
 		modelsId: 8,
 		storageCapacityId: 2
 	},
 	{
+		id: 105,
 		name: 'Apple iPhone 13 mini 256GB (Розовый | Pink)',
 		slug: 'apple-iphone-13-mini-256gb-pink',
 		description:
@@ -1405,13 +1510,14 @@ export const product_iPhone: IProduct[] = [
 		price: 69990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-pink.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-pink.jpg'
 		],
 		colorsId: 12,
 		modelsId: 8,
 		storageCapacityId: 3
 	},
 	{
+		id: 106,
 		name: 'Apple iPhone 13 mini 512GB (Розовый | Pink)',
 		slug: 'apple-iphone-13-mini-512gb-pink',
 		description:
@@ -1419,13 +1525,14 @@ export const product_iPhone: IProduct[] = [
 		price: 75990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/mini/apple-iphone-13-mini-pink.jpg'
+			'/uploads/images/products/iphone/13/mini/apple-iphone-13-mini-pink.jpg'
 		],
 		colorsId: 12,
 		modelsId: 8,
 		storageCapacityId: 4
 	},
 	{
+		id: 107,
 		name: 'Apple iPhone 13 128GB (Синий | Blue)',
 		slug: 'apple-iphone-13-128gb-blue',
 		description:
@@ -1447,12 +1554,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 62990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/13/apple-iphone-13-mini-blue.jpg'],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-blue.jpg'],
 		colorsId: 8,
 		modelsId: 9,
 		storageCapacityId: 2
 	},
 	{
+		id: 108,
 		name: 'Apple iPhone 13 256GB (Синий | Blue)',
 		slug: 'apple-iphone-13-256gb-blue',
 		description:
@@ -1474,12 +1582,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 74990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/13/apple-iphone-13-mini-blue.jpg'],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-blue.jpg'],
 		colorsId: 8,
 		modelsId: 9,
 		storageCapacityId: 3
 	},
 	{
+		id: 109,
 		name: 'Apple iPhone 13 512GB (Синий | Blue)',
 		slug: 'apple-iphone-13-512gb-blue',
 		description:
@@ -1501,12 +1610,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 80990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/13/apple-iphone-13-mini-blue.jpg'],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-blue.jpg'],
 		colorsId: 8,
 		modelsId: 9,
 		storageCapacityId: 4
 	},
 	{
+		id: 110,
 		name: 'Apple iPhone 13 128GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-13-128gb-midnight',
 		description:
@@ -1528,14 +1638,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 64490,
 		categoryId: 1,
-		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-midnight.jpg'
-		],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-midnight.jpg'],
 		colorsId: 16,
 		modelsId: 9,
 		storageCapacityId: 2
 	},
 	{
+		id: 111,
 		name: 'Apple iPhone 13 256GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-13-256gb-midnight',
 		description:
@@ -1557,14 +1666,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 74990,
 		categoryId: 1,
-		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-midnight.jpg'
-		],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-midnight.jpg'],
 		colorsId: 16,
 		modelsId: 9,
 		storageCapacityId: 3
 	},
 	{
+		id: 112,
 		name: 'Apple iPhone 13 512GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-13-512gb-midnight',
 		description:
@@ -1586,14 +1694,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 84990,
 		categoryId: 1,
-		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-midnight.jpg'
-		],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-midnight.jpg'],
 		colorsId: 16,
 		modelsId: 9,
 		storageCapacityId: 4
 	},
 	{
+		id: 113,
 		name: 'Apple iPhone 13 128GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-13-128gb-starlight',
 		description:
@@ -1616,13 +1723,14 @@ export const product_iPhone: IProduct[] = [
 		price: 62990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-starlight.jpg'
+			'/uploads/images/products/iphone/13/apple-iphone-13-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 9,
 		storageCapacityId: 2
 	},
 	{
+		id: 114,
 		name: 'Apple iPhone 13 256GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-13-256gb-starlight',
 		description:
@@ -1645,13 +1753,14 @@ export const product_iPhone: IProduct[] = [
 		price: 74990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-starlight.jpg'
+			'/uploads/images/products/iphone/13/apple-iphone-13-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 9,
 		storageCapacityId: 3
 	},
 	{
+		id: 115,
 		name: 'Apple iPhone 13 512GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-13-512gb-starlight',
 		description:
@@ -1674,13 +1783,14 @@ export const product_iPhone: IProduct[] = [
 		price: 80990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-starlight.jpg'
+			'/uploads/images/products/iphone/13/apple-iphone-13-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 9,
 		storageCapacityId: 4
 	},
 	{
+		id: 116,
 		name: 'Apple iPhone 13 128GB (PRODUCT)RED',
 		slug: 'apple-iphone-13-128gb-productred',
 		description:
@@ -1703,13 +1813,14 @@ export const product_iPhone: IProduct[] = [
 		price: 63990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-productred.jpg'
+			'/uploads/images/products/iphone/13/apple-iphone-13-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 9,
 		storageCapacityId: 2
 	},
 	{
+		id: 117,
 		name: 'Apple iPhone 13 256GB (PRODUCT)RED',
 		slug: 'apple-iphone-13-256gb-productred',
 		description:
@@ -1732,13 +1843,14 @@ export const product_iPhone: IProduct[] = [
 		price: 74990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-productred.jpg'
+			'/uploads/images/products/iphone/13/apple-iphone-13-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 9,
 		storageCapacityId: 3
 	},
 	{
+		id: 118,
 		name: 'Apple iPhone 13 512GB (PRODUCT)RED',
 		slug: 'apple-iphone-13-512gb-productred',
 		description:
@@ -1761,13 +1873,14 @@ export const product_iPhone: IProduct[] = [
 		price: 83990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-productred.jpg'
+			'/uploads/images/products/iphone/13/apple-iphone-13-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 9,
 		storageCapacityId: 4
 	},
 	{
+		id: 119,
 		name: 'Apple iPhone 13 128GB (Зелёный | Green)',
 		slug: 'apple-iphone-13-128gb-green',
 		description:
@@ -1789,14 +1902,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 64990,
 		categoryId: 1,
-		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-green.jpg'
-		],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-green.jpg'],
 		colorsId: 14,
 		modelsId: 9,
 		storageCapacityId: 2
 	},
 	{
+		id: 120,
 		name: 'Apple iPhone 13 256GB (Зелёный | Green)',
 		slug: 'apple-iphone-13-256gb-green',
 		description:
@@ -1818,14 +1930,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 74990,
 		categoryId: 1,
-		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-green.jpg'
-		],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-green.jpg'],
 		colorsId: 14,
 		modelsId: 9,
 		storageCapacityId: 3
 	},
 	{
+		id: 121,
 		name: 'Apple iPhone 13 512GB (Зелёный | Green)',
 		slug: 'apple-iphone-13-512gb-green',
 		description:
@@ -1847,14 +1958,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 83990,
 		categoryId: 1,
-		images: [
-			'uploads/images/products/iphone/13/apple-iphone-13-mini-green.jpg'
-		],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-green.jpg'],
 		colorsId: 14,
 		modelsId: 9,
 		storageCapacityId: 4
 	},
 	{
+		id: 122,
 		name: 'Apple iPhone 13 128GB (Розовый | Pink)',
 		slug: 'apple-iphone-13-128gb-pink',
 		description:
@@ -1876,12 +1986,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 63990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/13/apple-iphone-13-mini-pink.jpg'],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-pink.jpg'],
 		colorsId: 12,
 		modelsId: 9,
 		storageCapacityId: 2
 	},
 	{
+		id: 123,
 		name: 'Apple iPhone 13 256GB (Розовый | Pink)',
 		slug: 'apple-iphone-13-256gb-pink',
 		description:
@@ -1903,12 +2014,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 74990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/13/apple-iphone-13-pink.jpg'],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-pink.jpg'],
 		colorsId: 12,
 		modelsId: 9,
 		storageCapacityId: 3
 	},
 	{
+		id: 124,
 		name: 'Apple iPhone 13 512GB (Розовый | Pink)',
 		slug: 'apple-iphone-13-512gb-pink',
 		description:
@@ -1930,12 +2042,13 @@ export const product_iPhone: IProduct[] = [
 			'Обработка графики до 30% быстрее, чем у многих других смартфонов.',
 		price: 83990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/13/apple-iphone-13-pink.jpg'],
+		images: ['/uploads/images/products/iphone/13/apple-iphone-13-pink.jpg'],
 		colorsId: 12,
 		modelsId: 9,
 		storageCapacityId: 4
 	},
 	{
+		id: 125,
 		name: 'Apple iPhone 13 Pro 128GB (Серебристый | Silver)',
 		slug: 'apple-iphone-13-pro-128gb-silver',
 		description:
@@ -1946,13 +2059,14 @@ export const product_iPhone: IProduct[] = [
 		price: 92990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-silver.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 126,
 		name: 'Apple iPhone 13 Pro 256GB (Серебристый | Silver)',
 		slug: 'apple-iphone-13-pro-256gb-silver',
 		description:
@@ -1963,13 +2077,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-silver.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 10,
 		storageCapacityId: 3
 	},
 	{
+		id: 127,
 		name: 'Apple iPhone 13 Pro 512GB (Серебристый | Silver)',
 		slug: 'apple-iphone-13-pro-512gb-silver',
 		description:
@@ -1980,13 +2095,14 @@ export const product_iPhone: IProduct[] = [
 		price: 111990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-silver.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 128,
 		name: 'Apple iPhone 13 Pro 1TB (Серебристый | Silver)',
 		slug: 'apple-iphone-13-pro-1tb-silver',
 		description:
@@ -1997,13 +2113,14 @@ export const product_iPhone: IProduct[] = [
 		price: 118990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-silver.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 129,
 		name: 'Apple iPhone 13 Pro 128GB (Золотой | Gold)',
 		slug: 'apple-iphone-13-pro-128gb-gold',
 		description:
@@ -2014,13 +2131,14 @@ export const product_iPhone: IProduct[] = [
 		price: 92990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-gold.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 130,
 		name: 'Apple iPhone 13 Pro 256GB (Золотой | Gold)',
 		slug: 'apple-iphone-13-pro-256gb-gold',
 		description:
@@ -2031,13 +2149,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-gold.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 10,
 		storageCapacityId: 3
 	},
 	{
+		id: 131,
 		name: 'Apple iPhone 13 Pro 512GB (Золотой | Gold)',
 		slug: 'apple-iphone-13-pro-512gb-gold',
 		description:
@@ -2048,13 +2167,14 @@ export const product_iPhone: IProduct[] = [
 		price: 111990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-gold.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 132,
 		name: 'Apple iPhone 13 Pro 1TB (Золотой | Gold)',
 		slug: 'apple-iphone-13-pro-1tb-gold',
 		description:
@@ -2065,13 +2185,14 @@ export const product_iPhone: IProduct[] = [
 		price: 118990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-gold.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 133,
 		name: 'Apple iPhone 13 Pro 128GB (Небесно-голубой | Sierra Blue)',
 		slug: 'apple-iphone-13-pro-128gb-sierra-blue',
 		description:
@@ -2082,13 +2203,14 @@ export const product_iPhone: IProduct[] = [
 		price: 92990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-sierra-blue.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-sierra-blue.jpg'
 		],
 		colorsId: 11,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 134,
 		name: 'Apple iPhone 13 Pro 256GB (Небесно-голубой | Sierra Blue)',
 		slug: 'apple-iphone-13-pro-256gb-sierra-blue',
 		description:
@@ -2099,13 +2221,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-sierra-blue.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-sierra-blue.jpg'
 		],
 		colorsId: 11,
 		modelsId: 10,
 		storageCapacityId: 3
 	},
 	{
+		id: 135,
 		name: 'Apple iPhone 13 Pro 512GB (Небесно-голубой | Sierra Blue)',
 		slug: 'apple-iphone-13-pro-512gb-sierra-blue',
 		description:
@@ -2116,13 +2239,14 @@ export const product_iPhone: IProduct[] = [
 		price: 111990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-sierra-blue.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-sierra-blue.jpg'
 		],
 		colorsId: 11,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 136,
 		name: 'Apple iPhone 13 Pro 1TB (Небесно-голубой | Sierra Blue)',
 		slug: 'apple-iphone-13-pro-1tb-sierra-blue',
 		description:
@@ -2133,13 +2257,14 @@ export const product_iPhone: IProduct[] = [
 		price: 118990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-sierra-blue.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-sierra-blue.jpg'
 		],
 		colorsId: 11,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 137,
 		name: 'Apple iPhone 13 Pro 128GB («Альпийский зелёный» | Alpine Green)',
 		slug: 'apple-iphone-13-pro-128gb-alpine-green',
 		description:
@@ -2150,13 +2275,14 @@ export const product_iPhone: IProduct[] = [
 		price: 92990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-alpine-green.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-alpine-green.jpg'
 		],
 		colorsId: 9,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 138,
 		name: 'Apple iPhone 13 Pro 256GB («Альпийский зелёный» | Alpine Green)',
 		slug: 'apple-iphone-13-pro-256gb-alpine-green',
 		description:
@@ -2167,13 +2293,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-alpine-green.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-alpine-green.jpg'
 		],
 		colorsId: 9,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 139,
 		name: 'Apple iPhone 13 Pro 512GB («Альпийский зелёный» | Alpine Green)',
 		slug: 'apple-iphone-13-pro-512gb-alpine-green',
 		description:
@@ -2184,13 +2311,14 @@ export const product_iPhone: IProduct[] = [
 		price: 111990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-alpine-green.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-alpine-green.jpg'
 		],
 		colorsId: 9,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 140,
 		name: 'Apple iPhone 13 Pro 1TB («Альпийский зелёный» | Alpine Green)',
 		slug: 'apple-iphone-13-pro-1tb-alpine-green',
 		description:
@@ -2201,13 +2329,14 @@ export const product_iPhone: IProduct[] = [
 		price: 118990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-alpine-green.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-alpine-green.jpg'
 		],
 		colorsId: 9,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 141,
 		name: 'Apple iPhone 13 Pro 128GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-13-pro-128gb-graphite',
 		description:
@@ -2218,13 +2347,14 @@ export const product_iPhone: IProduct[] = [
 		price: 92990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-graphite.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-graphite.jpg'
 		],
 		colorsId: 10,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 142,
 		name: 'Apple iPhone 13 Pro 256GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-13-pro-256gb-graphite',
 		description:
@@ -2235,13 +2365,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-graphite.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-graphite.jpg'
 		],
 		colorsId: 10,
 		modelsId: 10,
 		storageCapacityId: 3
 	},
 	{
+		id: 143,
 		name: 'Apple iPhone 13 Pro 512GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-13-pro-512gb-graphite',
 		description:
@@ -2252,13 +2383,14 @@ export const product_iPhone: IProduct[] = [
 		price: 111990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-graphite.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-graphite.jpg'
 		],
 		colorsId: 10,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 144,
 		name: 'Apple iPhone 13 Pro 1TB (Графитовый | Graphite)',
 		slug: 'apple-iphone-13-pro-1tb-graphite',
 		description:
@@ -2269,13 +2401,14 @@ export const product_iPhone: IProduct[] = [
 		price: 118990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/apple-iphone-13-pro-graphite.jpg'
+			'/uploads/images/products/iphone/13/pro/apple-iphone-13-pro-graphite.jpg'
 		],
 		colorsId: 10,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 145,
 		name: 'Apple iPhone 13 Pro Max 128GB (Серебристый | Silver)',
 		slug: 'apple-iphone-13-pro-max-128gb-silver',
 		description:
@@ -2286,13 +2419,14 @@ export const product_iPhone: IProduct[] = [
 		price: 95990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-silver.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 146,
 		name: 'Apple iPhone 13 Pro Max 256GB (Серебристый | Silver)',
 		slug: 'apple-iphone-13-pro-max-256gb-silver',
 		description:
@@ -2303,13 +2437,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-silver.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 10,
 		storageCapacityId: 3
 	},
 	{
+		id: 147,
 		name: 'Apple iPhone 13 Pro Max 512GB (Серебристый | Silver)',
 		slug: 'apple-iphone-13-pro-max-512gb-silver',
 		description:
@@ -2320,13 +2455,14 @@ export const product_iPhone: IProduct[] = [
 		price: 115990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/mmax/apple-iphone-13-pro-max-silver.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 148,
 		name: 'Apple iPhone 13 Pro Max 1TB (Серебристый | Silver)',
 		slug: 'apple-iphone-13-pro-max-1tb-silver',
 		description:
@@ -2337,13 +2473,14 @@ export const product_iPhone: IProduct[] = [
 		price: 123990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-silver.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 149,
 		name: 'Apple iPhone 13 Pro Max 128GB (Золотой | Gold)',
 		slug: 'apple-iphone-13-pro-max-128gb-gold',
 		description:
@@ -2354,13 +2491,14 @@ export const product_iPhone: IProduct[] = [
 		price: 95990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-gold.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 150,
 		name: 'Apple iPhone 13 Pro Max 256GB (Золотой | Gold)',
 		slug: 'apple-iphone-13-pro-max-256gb-gold',
 		description:
@@ -2371,13 +2509,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-gold.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 10,
 		storageCapacityId: 3
 	},
 	{
+		id: 151,
 		name: 'Apple iPhone 13 Pro Max 512GB (Золотой | Gold)',
 		slug: 'apple-iphone-13-pro-max-512gb-gold',
 		description:
@@ -2388,13 +2527,14 @@ export const product_iPhone: IProduct[] = [
 		price: 115990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-gold.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 152,
 		name: 'Apple iPhone 13 Pro Max 1TB (Золотой | Gold)',
 		slug: 'apple-iphone-13-pro-max-1tb-gold',
 		description:
@@ -2405,13 +2545,14 @@ export const product_iPhone: IProduct[] = [
 		price: 123990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-gold.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 153,
 		name: 'Apple iPhone 13 Pro Max 128GB (Небесно-голубой | Sierra Blue)',
 		slug: 'apple-iphone-13-pro-max-128gb-sierra-blue',
 		description:
@@ -2422,13 +2563,14 @@ export const product_iPhone: IProduct[] = [
 		price: 95990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-sierra-blue.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-sierra-blue.jpg'
 		],
 		colorsId: 11,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 154,
 		name: 'Apple iPhone 13 Pro Max 256GB (Небесно-голубой | Sierra Blue)',
 		slug: 'apple-iphone-13-pro-max-256gb-sierra-blue',
 		description:
@@ -2439,13 +2581,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-sierra-blue.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-sierra-blue.jpg'
 		],
 		colorsId: 11,
 		modelsId: 10,
 		storageCapacityId: 3
 	},
 	{
+		id: 155,
 		name: 'Apple iPhone 13 Pro Max 512GB (Небесно-голубой | Sierra Blue)',
 		slug: 'apple-iphone-13-pro-max-512gb-sierra-blue',
 		description:
@@ -2456,13 +2599,14 @@ export const product_iPhone: IProduct[] = [
 		price: 115990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-sierra-blue.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-sierra-blue.jpg'
 		],
 		colorsId: 11,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 156,
 		name: 'Apple iPhone 13 Pro Max 1TB (Небесно-голубой | Sierra Blue)',
 		slug: 'apple-iphone-13-pro-max-1tb-sierra-blue',
 		description:
@@ -2473,13 +2617,14 @@ export const product_iPhone: IProduct[] = [
 		price: 123990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-sierra-blue.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-sierra-blue.jpg'
 		],
 		colorsId: 11,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 157,
 		name: 'Apple iPhone 13 Pro Max 128GB («Альпийский зелёный» | Alpine Green)',
 		slug: 'apple-iphone-13-pro-max-128gb-alpine-green',
 		description:
@@ -2490,13 +2635,14 @@ export const product_iPhone: IProduct[] = [
 		price: 95990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-alpine-green.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-alpine-green.jpg'
 		],
 		colorsId: 9,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 158,
 		name: 'Apple iPhone 13 Pro Max 256GB («Альпийский зелёный» | Alpine Green)',
 		slug: 'apple-iphone-13-pro-max-256gb-alpine-green',
 		description:
@@ -2507,13 +2653,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-alpine-green.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-alpine-green.jpg'
 		],
 		colorsId: 9,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 159,
 		name: 'Apple iPhone 13 Pro Max 512GB («Альпийский зелёный» | Alpine Green)',
 		slug: 'apple-iphone-13-pro-max-512gb-alpine-green',
 		description:
@@ -2524,13 +2671,14 @@ export const product_iPhone: IProduct[] = [
 		price: 115990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-alpine-green.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-alpine-green.jpg'
 		],
 		colorsId: 9,
 		modelsId: 10,
 		storageCapacityId: 4
 	},
 	{
+		id: 160,
 		name: 'Apple iPhone 13 Pro Max 1TB («Альпийский зелёный» | Alpine Green)',
 		slug: 'apple-iphone-13-pro-max-1tb-alpine-green',
 		description:
@@ -2541,13 +2689,14 @@ export const product_iPhone: IProduct[] = [
 		price: 123990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-alpine-green.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-alpine-green.jpg'
 		],
 		colorsId: 9,
 		modelsId: 10,
 		storageCapacityId: 5
 	},
 	{
+		id: 161,
 		name: 'Apple iPhone 13 Pro Max 128GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-13-pro-max-128gb-graphite',
 		description:
@@ -2558,13 +2707,14 @@ export const product_iPhone: IProduct[] = [
 		price: 95990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-graphite.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-graphite.jpg'
 		],
 		colorsId: 10,
 		modelsId: 10,
 		storageCapacityId: 2
 	},
 	{
+		id: 162,
 		name: 'Apple iPhone 13 Pro Max 256GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-13-pro-max-256gb-graphite',
 		description:
@@ -2575,13 +2725,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-graphite.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-graphite.jpg'
 		],
 		colorsId: 10,
 		modelsId: 10,
 		storageCapacityId: 3
 	},
 	{
+		id: 163,
 		name: 'Apple iPhone 13 Pro Max 512GB (Графитовый | Graphite)',
 		slug: 'apple-iphone-13-pro-max-512gb-graphite',
 		description:
@@ -2592,13 +2743,14 @@ export const product_iPhone: IProduct[] = [
 		price: 115990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-graphite.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-graphite.jpg'
 		],
 		colorsId: 10,
 		modelsId: 11,
 		storageCapacityId: 4
 	},
 	{
+		id: 164,
 		name: 'Apple iPhone 13 Pro Max 1TB (Графитовый | Graphite)',
 		slug: 'apple-iphone-13-pro-max-1tb-graphite',
 		description:
@@ -2609,157 +2761,176 @@ export const product_iPhone: IProduct[] = [
 		price: 123990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-graphite.jpg'
+			'/uploads/images/products/iphone/13/pro/max/apple-iphone-13-pro-max-graphite.jpg'
 		],
 		colorsId: 10,
 		modelsId: 11,
 		storageCapacityId: 5
 	},
 	{
+		id: 165,
 		name: 'Apple iPhone 14 128GB (Синий | Blue)',
 		slug: 'apple-iphone-14-128gb-blue',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 65990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-blue.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-blue.jpg'],
 		colorsId: 8,
 		modelsId: 12,
 		storageCapacityId: 2
 	},
 	{
+		id: 166,
 		name: 'Apple iPhone 14 256GB (Синий | Blue)',
 		slug: 'apple-iphone-14-256gb-blue',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 76990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-blue.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-blue.jpg'],
 		colorsId: 8,
 		modelsId: 12,
 		storageCapacityId: 3
 	},
 	{
+		id: 167,
 		name: 'Apple iPhone 14 512GB (Синий | Blue)',
 		slug: 'apple-iphone-14-512gb-blue',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 91990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-blue.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-blue.jpg'],
 		colorsId: 8,
 		modelsId: 12,
 		storageCapacityId: 4
 	},
 	{
+		id: 168,
 		name: 'Apple iPhone 14 128GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-14-128gb-purple',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 68990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-purple.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-purple.jpg'],
 		colorsId: 3,
 		modelsId: 12,
 		storageCapacityId: 2
 	},
 	{
+		id: 169,
 		name: 'Apple iPhone 14 256GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-14-256gb-purple',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 76990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-purple.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-purple.jpg'],
 		colorsId: 3,
 		modelsId: 12,
 		storageCapacityId: 3
 	},
 	{
+		id: 170,
 		name: 'Apple iPhone 14 512GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-14-512gb-purple',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 91990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-purple.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-purple.jpg'],
 		colorsId: 3,
 		modelsId: 12,
 		storageCapacityId: 4
 	},
 	{
+		id: 171,
 		name: 'Apple iPhone 14 128GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-14-128gb-midnight',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 68990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-midnight.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-midnight.jpg'],
 		colorsId: 16,
 		modelsId: 12,
 		storageCapacityId: 2
 	},
 	{
+		id: 172,
 		name: 'Apple iPhone 14 256GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-14-256gb-midnight',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 76990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-midnight.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-midnight.jpg'],
 		colorsId: 16,
 		modelsId: 12,
 		storageCapacityId: 3
 	},
 	{
+		id: 173,
 		name: 'Apple iPhone 14 512GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-14-512gb-midnight',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 91990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-midnight.jpg'],
+		images: ['/uploads/images/products/iphone/14/apple-iphone-14-midnight.jpg'],
 		colorsId: 16,
 		modelsId: 12,
 		storageCapacityId: 4
 	},
 	{
+		id: 174,
 		name: 'Apple iPhone 14 128GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-14-128gb-starlight',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 68990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-starlight.jpg'],
+		images: [
+			'/uploads/images/products/iphone/14/apple-iphone-14-starlight.jpg'
+		],
 		colorsId: 13,
 		modelsId: 12,
 		storageCapacityId: 2
 	},
 	{
+		id: 175,
 		name: 'Apple iPhone 14 256GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-14-256gb-starlight',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 76990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-starlight.jpg'],
+		images: [
+			'/uploads/images/products/iphone/14/apple-iphone-14-starlight.jpg'
+		],
 		colorsId: 13,
 		modelsId: 12,
 		storageCapacityId: 3
 	},
 	{
+		id: 176,
 		name: 'Apple iPhone 14 512GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-14-512gb-starlight',
 		description:
 			'Тонкий и легкий смартфон из новой линейки Apple iPhone 14 с высоким разрешением OLED-экрана, хорошим объемом памяти и запасом автономности во влагостойком корпусе. Продвинутые камеры позволят снимать фото и видео в отличном качестве даже при слабом освещении. Функция экстренной помощи со связью через спутник выручит, когда нет возможности выйти в интернет. Мощный процессор откроет новые возможности для игр и развлечений.',
 		price: 91990,
 		categoryId: 1,
-		images: ['uploads/images/products/iphone/14/apple-iphone-14-starlight.jpg'],
+		images: [
+			'/uploads/images/products/iphone/14/apple-iphone-14-starlight.jpg'
+		],
 		colorsId: 13,
 		modelsId: 12,
 		storageCapacityId: 4
 	},
 	{
+		id: 177,
 		name: 'Apple iPhone 14 128GB (PRODUCT)RED',
 		slug: 'apple-iphone-14-128gb-productred',
 		description:
@@ -2767,13 +2938,14 @@ export const product_iPhone: IProduct[] = [
 		price: 68990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/apple-iphone-14-productred.jpg'
+			'/uploads/images/products/iphone/14/apple-iphone-14-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 12,
 		storageCapacityId: 2
 	},
 	{
+		id: 178,
 		name: 'Apple iPhone 14 256GB (PRODUCT)RED',
 		slug: 'apple-iphone-14-256gb-productred',
 		description:
@@ -2781,13 +2953,14 @@ export const product_iPhone: IProduct[] = [
 		price: 76990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/apple-iphone-14-productred.jpg'
+			'/uploads/images/products/iphone/14/apple-iphone-14-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 12,
 		storageCapacityId: 3
 	},
 	{
+		id: 179,
 		name: 'Apple iPhone 14 512GB (PRODUCT)RED',
 		slug: 'apple-iphone-14-512gb-productred',
 		description:
@@ -2795,13 +2968,14 @@ export const product_iPhone: IProduct[] = [
 		price: 91990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/apple-iphone-14-productred.jpg'
+			'/uploads/images/products/iphone/14/apple-iphone-14-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 12,
 		storageCapacityId: 4
 	},
 	{
+		id: 180,
 		name: 'apple-iphone-14-128gb-zeltyj-yellow',
 		slug: 'apple-iphone-14-128gb-zeltyj-yellow',
 		description:
@@ -2809,13 +2983,14 @@ export const product_iPhone: IProduct[] = [
 		price: 72990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/apple-iphone-14-zeltyj-yellow.jpg'
+			'/uploads/images/products/iphone/14/apple-iphone-14-zeltyj-yellow.jpg'
 		],
 		colorsId: 6,
 		modelsId: 12,
 		storageCapacityId: 2
 	},
 	{
+		id: 181,
 		name: 'apple-iphone-14-256gb-zeltyj-yellow',
 		slug: 'apple-iphone-14-256gb-zeltyj-yellow',
 		description:
@@ -2823,13 +2998,14 @@ export const product_iPhone: IProduct[] = [
 		price: 82990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/apple-iphone-14-zeltyj-yellow.jpg'
+			'/uploads/images/products/iphone/14/apple-iphone-14-zeltyj-yellow.jpg'
 		],
 		colorsId: 6,
 		modelsId: 12,
 		storageCapacityId: 3
 	},
 	{
+		id: 182,
 		name: 'apple-iphone-14-512gb-zeltyj-yellow',
 		slug: 'apple-iphone-14-512gb-zeltyj-yellow',
 		description:
@@ -2837,13 +3013,14 @@ export const product_iPhone: IProduct[] = [
 		price: 91990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/apple-iphone-14-zeltyj-yellow.jpg'
+			'/uploads/images/products/iphone/14/apple-iphone-14-zeltyj-yellow.jpg'
 		],
 		colorsId: 6,
 		modelsId: 12,
 		storageCapacityId: 4
 	},
 	{
+		id: 183,
 		name: 'Apple iPhone 14 Plus 128GB (Синий | Blue)',
 		slug: 'apple-iphone-14-plus-128gb-blue',
 		description:
@@ -2851,13 +3028,14 @@ export const product_iPhone: IProduct[] = [
 		price: 71990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-blue.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-blue.jpg'
 		],
 		colorsId: 8,
 		modelsId: 13,
 		storageCapacityId: 2
 	},
 	{
+		id: 184,
 		name: 'Apple iPhone 14 Plus 256GB (Синий | Blue)',
 		slug: 'apple-iphone-14-plus-256gb-blue',
 		description:
@@ -2865,13 +3043,14 @@ export const product_iPhone: IProduct[] = [
 		price: 79990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-blue.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-blue.jpg'
 		],
 		colorsId: 8,
 		modelsId: 13,
 		storageCapacityId: 3
 	},
 	{
+		id: 185,
 		name: 'Apple iPhone 14 Plus 512GB (Синий | Blue)',
 		slug: 'apple-iphone-14-plus-512gb-blue',
 		description:
@@ -2879,13 +3058,14 @@ export const product_iPhone: IProduct[] = [
 		price: 93990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-blue.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-blue.jpg'
 		],
 		colorsId: 8,
 		modelsId: 13,
 		storageCapacityId: 4
 	},
 	{
+		id: 186,
 		name: 'Apple iPhone 14 Plus 128GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-14-plus-128gb-midnight',
 		description:
@@ -2893,13 +3073,14 @@ export const product_iPhone: IProduct[] = [
 		price: 73990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-midnight.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-midnight.jpg'
 		],
 		colorsId: 16,
 		modelsId: 13,
 		storageCapacityId: 2
 	},
 	{
+		id: 187,
 		name: 'Apple iPhone 14 Plus 256GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-14-plus-256gb-midnight',
 		description:
@@ -2907,13 +3088,14 @@ export const product_iPhone: IProduct[] = [
 		price: 82990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-midnight.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-midnight.jpg'
 		],
 		colorsId: 16,
 		modelsId: 13,
 		storageCapacityId: 3
 	},
 	{
+		id: 188,
 		name: 'Apple iPhone 14 Plus 512GB («Тёмная ночь» | Midnight)',
 		slug: 'apple-iphone-14-plus-512gb-midnight',
 		description:
@@ -2921,13 +3103,14 @@ export const product_iPhone: IProduct[] = [
 		price: 93990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-midnight.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-midnight.jpg'
 		],
 		colorsId: 16,
 		modelsId: 13,
 		storageCapacityId: 4
 	},
 	{
+		id: 189,
 		name: 'Apple iPhone 14 Plus 128GB (PRODUCT)RED',
 		slug: 'apple-iphone-14-plus-128gb-productred',
 		description:
@@ -2935,13 +3118,14 @@ export const product_iPhone: IProduct[] = [
 		price: 73990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-productred.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 13,
 		storageCapacityId: 2
 	},
 	{
+		id: 190,
 		name: 'Apple iPhone 14 Plus 256GB (PRODUCT)RED',
 		slug: 'apple-iphone-14-plus-256gb-productred',
 		description:
@@ -2949,13 +3133,14 @@ export const product_iPhone: IProduct[] = [
 		price: 82990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-productred.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 13,
 		storageCapacityId: 3
 	},
 	{
+		id: 191,
 		name: 'Apple iPhone 14 Plus 512GB (PRODUCT)RED',
 		slug: 'apple-iphone-14-plus-512gb-productred',
 		description:
@@ -2963,13 +3148,14 @@ export const product_iPhone: IProduct[] = [
 		price: 93990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-productred.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-productred.jpg'
 		],
 		colorsId: 7,
 		modelsId: 13,
 		storageCapacityId: 4
 	},
 	{
+		id: 192,
 		name: 'Apple iPhone 14 Plus 128GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-14-plus-128gb-purple',
 		description:
@@ -2977,13 +3163,14 @@ export const product_iPhone: IProduct[] = [
 		price: 73990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-purple.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 13,
 		storageCapacityId: 2
 	},
 	{
+		id: 193,
 		name: 'Apple iPhone 14 Plus 256GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-14-plus-256gb-purple',
 		description:
@@ -2991,13 +3178,14 @@ export const product_iPhone: IProduct[] = [
 		price: 82990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-purple.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 13,
 		storageCapacityId: 3
 	},
 	{
+		id: 194,
 		name: 'Apple iPhone 14 Plus 512GB (Фиолетовый | Purple)',
 		slug: 'apple-iphone-14-plus-512gb-purple',
 		description:
@@ -3005,13 +3193,14 @@ export const product_iPhone: IProduct[] = [
 		price: 93990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-purple.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 13,
 		storageCapacityId: 4
 	},
 	{
+		id: 195,
 		name: 'Apple iPhone 14 Plus 128GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-14-plus-128gb-starlight',
 		description:
@@ -3019,13 +3208,14 @@ export const product_iPhone: IProduct[] = [
 		price: 73990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-starlight.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 13,
 		storageCapacityId: 2
 	},
 	{
+		id: 196,
 		name: 'Apple iPhone 14 Plus 256GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-14-plus-256gb-starlight',
 		description:
@@ -3033,13 +3223,14 @@ export const product_iPhone: IProduct[] = [
 		price: 82990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-starlight.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 13,
 		storageCapacityId: 3
 	},
 	{
+		id: 197,
 		name: 'Apple iPhone 14 Plus 512GB («Сияющая звезда» | Starlight)',
 		slug: 'apple-iphone-14-plus-512gb-starlight',
 		description:
@@ -3047,13 +3238,14 @@ export const product_iPhone: IProduct[] = [
 		price: 93990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-starlight.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-starlight.jpg'
 		],
 		colorsId: 13,
 		modelsId: 13,
 		storageCapacityId: 4
 	},
 	{
+		id: 198,
 		name: 'Apple iPhone 14 Plus 128GB (Жёлтый | Yellow)',
 		slug: 'apple-iphone-14-plus-128gb-zeltyj-yellow',
 		description:
@@ -3061,13 +3253,14 @@ export const product_iPhone: IProduct[] = [
 		price: 82990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-zeltyj-yellow.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-zeltyj-yellow.jpg'
 		],
 		colorsId: 6,
 		modelsId: 13,
 		storageCapacityId: 2
 	},
 	{
+		id: 199,
 		name: 'Apple iPhone 14 Plus 256GB (Жёлтый | Yellow)',
 		slug: 'apple-iphone-14-plus-256gb-zeltyj-yellow',
 		description:
@@ -3075,13 +3268,14 @@ export const product_iPhone: IProduct[] = [
 		price: 93990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-zeltyj-yellow.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-zeltyj-yellow.jpg'
 		],
 		colorsId: 6,
 		modelsId: 13,
 		storageCapacityId: 3
 	},
 	{
+		id: 200,
 		name: 'Apple iPhone 14 Plus 512GB (Жёлтый | Yellow)',
 		slug: 'apple-iphone-14-plus-512gb-zeltyj-yellow',
 		description:
@@ -3089,13 +3283,14 @@ export const product_iPhone: IProduct[] = [
 		price: 104990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/plus/apple-iphone-14-plus-zeltyj-yellow.jpg'
+			'/uploads/images/products/iphone/14/plus/apple-iphone-14-plus-zeltyj-yellow.jpg'
 		],
 		colorsId: 6,
 		modelsId: 13,
 		storageCapacityId: 4
 	},
 	{
+		id: 201,
 		name: 'Apple iPhone 14 Pro 128GB (Золотой | Gold)',
 		slug: 'apple-iphone-14-pro-128gb-gold',
 		description:
@@ -3117,13 +3312,14 @@ export const product_iPhone: IProduct[] = [
 		price: 87990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-gold.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 14,
 		storageCapacityId: 2
 	},
 	{
+		id: 202,
 		name: 'Apple iPhone 14 Pro 256GB (Золотой | Gold)',
 		slug: 'apple-iphone-14-pro-256gb-gold',
 		description:
@@ -3145,13 +3341,14 @@ export const product_iPhone: IProduct[] = [
 		price: 101990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-gold.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 14,
 		storageCapacityId: 3
 	},
 	{
+		id: 203,
 		name: 'Apple iPhone 14 Pro 512GB (Золотой | Gold)',
 		slug: 'apple-iphone-14-pro-512gb-gold',
 		description:
@@ -3173,13 +3370,14 @@ export const product_iPhone: IProduct[] = [
 		price: 117990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-gold.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 14,
 		storageCapacityId: 4
 	},
 	{
+		id: 204,
 		name: 'Apple iPhone 14 Pro 1TB (Золотой | Gold)',
 		slug: 'apple-iphone-14-pro-1tb-gold',
 		description:
@@ -3201,13 +3399,14 @@ export const product_iPhone: IProduct[] = [
 		price: 128990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-gold.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 14,
 		storageCapacityId: 5
 	},
 	{
+		id: 205,
 		name: 'Apple iPhone 14 Pro 128GB (Тёмно-фиолетовый | Deep Purple)',
 		slug: 'apple-iphone-14-pro-128gb-deep-purple',
 		description:
@@ -3229,13 +3428,14 @@ export const product_iPhone: IProduct[] = [
 		price: 91990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-deep-purple.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-deep-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 14,
 		storageCapacityId: 2
 	},
 	{
+		id: 206,
 		name: 'Apple iPhone 14 Pro 256GB (Тёмно-фиолетовый | Deep Purple)',
 		slug: 'apple-iphone-14-pro-256gb-deep-purple',
 		description:
@@ -3257,13 +3457,14 @@ export const product_iPhone: IProduct[] = [
 		price: 103990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-deep-purple.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-deep-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 14,
 		storageCapacityId: 3
 	},
 	{
+		id: 207,
 		name: 'Apple iPhone 14 Pro 512GB (Тёмно-фиолетовый | Deep Purple)',
 		slug: 'apple-iphone-14-pro-512gb-deep-purple',
 		description:
@@ -3285,13 +3486,14 @@ export const product_iPhone: IProduct[] = [
 		price: 117990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-deep-purple.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-deep-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 14,
 		storageCapacityId: 4
 	},
 	{
+		id: 208,
 		name: 'Apple iPhone 14 Pro 1TB (Тёмно-фиолетовый | Deep Purple)',
 		slug: 'apple-iphone-14-pro-1tb-deep-purple',
 		description:
@@ -3313,13 +3515,14 @@ export const product_iPhone: IProduct[] = [
 		price: 128990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-deep-purple.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-deep-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 14,
 		storageCapacityId: 5
 	},
 	{
+		id: 209,
 		name: 'Apple iPhone 14 Pro 128GB (Серебристый | Silver)',
 		slug: 'apple-iphone-14-pro-128gb-silver',
 		description:
@@ -3341,13 +3544,14 @@ export const product_iPhone: IProduct[] = [
 		price: 88990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-silver.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 14,
 		storageCapacityId: 2
 	},
 	{
+		id: 210,
 		name: 'Apple iPhone 14 Pro 256GB (Серебристый | Silver)',
 		slug: 'apple-iphone-14-pro-256gb-silver',
 		description:
@@ -3369,13 +3573,14 @@ export const product_iPhone: IProduct[] = [
 		price: 102990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-silver.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 14,
 		storageCapacityId: 3
 	},
 	{
+		id: 211,
 		name: 'Apple iPhone 14 Pro 512GB (Серебристый | Silver)',
 		slug: 'apple-iphone-14-pro-512gb-silver',
 		description:
@@ -3397,13 +3602,14 @@ export const product_iPhone: IProduct[] = [
 		price: 117990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-silver.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 14,
 		storageCapacityId: 4
 	},
 	{
+		id: 212,
 		name: 'Apple iPhone 14 Pro 1TB (Серебристый | Silver)',
 		slug: 'apple-iphone-14-pro-1tb-silver',
 		description:
@@ -3425,13 +3631,14 @@ export const product_iPhone: IProduct[] = [
 		price: 128990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-silver.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 14,
 		storageCapacityId: 5
 	},
 	{
+		id: 213,
 		name: 'Apple iPhone 14 Pro 128GB («Чёрный космос» | Space Black)',
 		slug: 'apple-iphone-14-pro-128gb-space-black',
 		description:
@@ -3453,13 +3660,14 @@ export const product_iPhone: IProduct[] = [
 		price: 91990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-space-black.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-space-black.jpg'
 		],
 		colorsId: 4,
 		modelsId: 14,
 		storageCapacityId: 2
 	},
 	{
+		id: 214,
 		name: 'Apple iPhone 14 Pro 256GB («Чёрный космос» | Space Black)',
 		slug: 'apple-iphone-14-pro-256gb-space-black',
 		description:
@@ -3481,13 +3689,14 @@ export const product_iPhone: IProduct[] = [
 		price: 102990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-space-black.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-space-black.jpg'
 		],
 		colorsId: 4,
 		modelsId: 14,
 		storageCapacityId: 3
 	},
 	{
+		id: 215,
 		name: 'Apple iPhone 14 Pro 512GB («Чёрный космос» | Space Black)',
 		slug: 'apple-iphone-14-pro-512gb-space-black',
 		description:
@@ -3509,13 +3718,14 @@ export const product_iPhone: IProduct[] = [
 		price: 117990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-space-black.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-space-black.jpg'
 		],
 		colorsId: 4,
 		modelsId: 14,
 		storageCapacityId: 4
 	},
 	{
+		id: 216,
 		name: 'Apple iPhone 14 Pro 1TB («Чёрный космос» | Space Black)',
 		slug: 'apple-iphone-14-pro-1tb-space-black',
 		description:
@@ -3537,13 +3747,14 @@ export const product_iPhone: IProduct[] = [
 		price: 128990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/apple-iphone-14-pro-space-black.jpg'
+			'/uploads/images/products/iphone/14/pro/apple-iphone-14-pro-space-black.jpg'
 		],
 		colorsId: 4,
 		modelsId: 14,
 		storageCapacityId: 5
 	},
 	{
+		id: 217,
 		name: 'Apple iPhone 14 Pro Max 128GB (Золотой | Gold)',
 		slug: 'apple-iphone-14-pro-max-128gb-gold',
 		description:
@@ -3565,13 +3776,14 @@ export const product_iPhone: IProduct[] = [
 		price: 97990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-gold.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 15,
 		storageCapacityId: 2
 	},
 	{
+		id: 218,
 		name: 'Apple iPhone 14 Pro Max 256GB (Золотой | Gold)',
 		slug: 'apple-iphone-14-pro-max-256gb-gold',
 		description:
@@ -3593,13 +3805,14 @@ export const product_iPhone: IProduct[] = [
 		price: 105990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-gold.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 15,
 		storageCapacityId: 3
 	},
 	{
+		id: 219,
 		name: 'Apple iPhone 14 Pro Max 512GB (Золотой | Gold)',
 		slug: 'apple-iphone-14-pro-max-512gb-gold',
 		description:
@@ -3621,13 +3834,14 @@ export const product_iPhone: IProduct[] = [
 		price: 119990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-gold.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 15,
 		storageCapacityId: 4
 	},
 	{
+		id: 220,
 		name: 'Apple iPhone 14 Pro Max 1TB (Золотой | Gold)',
 		slug: 'apple-iphone-14-pro-max-1tb-gold',
 		description:
@@ -3649,13 +3863,14 @@ export const product_iPhone: IProduct[] = [
 		price: 129990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-gold.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-gold.jpg'
 		],
 		colorsId: 1,
 		modelsId: 15,
 		storageCapacityId: 5
 	},
 	{
+		id: 221,
 		name: 'Apple iPhone 14 Pro Max 128GB (Тёмно-фиолетовый | Deep Purple)',
 		slug: 'apple-iphone-14-pro-max-128gb-deep-purple',
 		description:
@@ -3677,13 +3892,14 @@ export const product_iPhone: IProduct[] = [
 		price: 103990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-deep-purple.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-deep-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 15,
 		storageCapacityId: 2
 	},
 	{
+		id: 222,
 		name: 'Apple iPhone 14 Pro Max 256GB (Тёмно-фиолетовый | Deep Purple)',
 		slug: 'apple-iphone-14-pro-max-256gb-deep-purple',
 		description:
@@ -3705,13 +3921,14 @@ export const product_iPhone: IProduct[] = [
 		price: 109990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-deep-purple.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-deep-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 15,
 		storageCapacityId: 3
 	},
 	{
+		id: 223,
 		name: 'Apple iPhone 14 Pro Max 512GB (Тёмно-фиолетовый | Deep Purple)',
 		slug: 'apple-iphone-14-pro-max-512gb-deep-purple',
 		description:
@@ -3733,13 +3950,14 @@ export const product_iPhone: IProduct[] = [
 		price: 122990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-deep-purple.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-deep-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 15,
 		storageCapacityId: 4
 	},
 	{
+		id: 224,
 		name: 'Apple iPhone 14 Pro Max 1TB (Тёмно-фиолетовый | Deep Purple)',
 		slug: 'apple-iphone-14-pro-max-1tb-deep-purple',
 		description:
@@ -3761,13 +3979,14 @@ export const product_iPhone: IProduct[] = [
 		price: 130990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-deep-purple.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-deep-purple.jpg'
 		],
 		colorsId: 3,
 		modelsId: 15,
 		storageCapacityId: 5
 	},
 	{
+		id: 225,
 		name: 'Apple iPhone 14 Pro Max 128GB (Серебристый | Silver)',
 		slug: 'apple-iphone-14-pro-max-128gb-silver',
 		description:
@@ -3789,13 +4008,14 @@ export const product_iPhone: IProduct[] = [
 		price: 99990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-silver.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 15,
 		storageCapacityId: 2
 	},
 	{
+		id: 226,
 		name: 'Apple iPhone 14 Pro Max 256GB (Серебристый | Silver)',
 		slug: 'apple-iphone-14-pro-max-256gb-silver',
 		description:
@@ -3817,13 +4037,14 @@ export const product_iPhone: IProduct[] = [
 		price: 107990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-silver.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 15,
 		storageCapacityId: 3
 	},
 	{
+		id: 227,
 		name: 'Apple iPhone 14 Pro Max 512GB (Серебристый | Silver)',
 		slug: 'apple-iphone-14-pro-max-512gb-silver',
 		description:
@@ -3845,13 +4066,14 @@ export const product_iPhone: IProduct[] = [
 		price: 119990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-silver.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 15,
 		storageCapacityId: 4
 	},
 	{
+		id: 228,
 		name: 'Apple iPhone 14 Pro Max 1TB (Серебристый | Silver)',
 		slug: 'apple-iphone-14-pro-max-1tb-silver',
 		description:
@@ -3873,13 +4095,14 @@ export const product_iPhone: IProduct[] = [
 		price: 129990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-silver.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-silver.jpg'
 		],
 		colorsId: 2,
 		modelsId: 15,
 		storageCapacityId: 5
 	},
 	{
+		id: 229,
 		name: 'Apple iPhone 14 Pro Max 128GB («Чёрный космос» | Space Black)',
 		slug: 'apple-iphone-14-pro-max-128gb-space-black',
 		description:
@@ -3901,13 +4124,14 @@ export const product_iPhone: IProduct[] = [
 		price: 99990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-space-black.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-space-black.jpg'
 		],
 		colorsId: 4,
 		modelsId: 15,
 		storageCapacityId: 2
 	},
 	{
+		id: 230,
 		name: 'Apple iPhone 14 Pro Max 256GB («Чёрный космос» | Space Black)',
 		slug: 'apple-iphone-14-pro-max-256gb-space-black',
 		description:
@@ -3929,13 +4153,14 @@ export const product_iPhone: IProduct[] = [
 		price: 108990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-space-black.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-space-black.jpg'
 		],
 		colorsId: 4,
 		modelsId: 15,
 		storageCapacityId: 3
 	},
 	{
+		id: 231,
 		name: 'Apple iPhone 14 Pro Max 512GB («Чёрный космос» | Space Black)',
 		slug: 'apple-iphone-14-pro-max-512gb-space-black',
 		description:
@@ -3957,13 +4182,14 @@ export const product_iPhone: IProduct[] = [
 		price: 118990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-space-black.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-space-black.jpg'
 		],
 		colorsId: 4,
 		modelsId: 15,
 		storageCapacityId: 4
 	},
 	{
+		id: 232,
 		name: 'Apple iPhone 14 Pro Max 1TB («Чёрный космос» | Space Black)',
 		slug: 'apple-iphone-14-pro-max-1tb-space-black',
 		description:
@@ -3985,14 +4211,14 @@ export const product_iPhone: IProduct[] = [
 		price: 130990,
 		categoryId: 1,
 		images: [
-			'uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-space-black.jpg'
+			'/uploads/images/products/iphone/14/pro/max/apple-iphone-14-pro-max-space-black.jpg'
 		],
 		colorsId: 4,
 		modelsId: 15,
 		storageCapacityId: 5
 	}
 ]
-
-export const product_iPad: IProduct[] = []
-
-export const product_apple_Watch: IProduct[] = []
+//
+// export const product_iPad: IProduct[] = []
+//
+// export const product_apple_Watch: IProduct[] = []

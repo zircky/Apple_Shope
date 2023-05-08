@@ -9,34 +9,34 @@ export class CommunicationOptionsService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const communicationOptions = await this.prisma.storageCapacity.findUnique({
+		const communicationOptions = await this.prisma.communicationOptions.findUnique({
 			where: { id },
 			select: returnCommunicationOptionsObject
 		})
 		if (!communicationOptions) {
-			throw new NotFoundException('storageCapacity not found')
+			throw new NotFoundException('communication Options not found')
 		}
 		return communicationOptions
 	}
 	async bySlug(slug: string) {
-		const communicationOptions = await this.prisma.storageCapacity.findUnique({
+		const communicationOptions = await this.prisma.communicationOptions.findUnique({
 			where: {
 				slug
 			},
 			select: returnCommunicationOptionsObject
 		})
 		if (!communicationOptions) {
-			throw new NotFoundException('storage capacity not found')
+			throw new NotFoundException('communication Options not found')
 		}
 		return communicationOptions
 	}
 	async getAll() {
-		return this.prisma.storageCapacity.findMany({
+		return this.prisma.communicationOptions.findMany({
 			select: returnCommunicationOptionsObject
 		})
 	}
 	async create() {
-		return this.prisma.storageCapacity.create({
+		return this.prisma.communicationOptions.create({
 			data: {
 				name: '',
 				slug: ''
@@ -44,7 +44,7 @@ export class CommunicationOptionsService {
 		})
 	}
 	async update(id: number, dto: CommunicationOptionDto) {
-		return this.prisma.storageCapacity.update({
+		return this.prisma.communicationOptions.update({
 			where: { id },
 			data: {
 				name: dto.name,

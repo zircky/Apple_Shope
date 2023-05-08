@@ -9,34 +9,34 @@ export class CpuService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const cpu = await this.prisma.storageCapacity.findUnique({
+		const cpu = await this.prisma.cPU.findUnique({
 			where: { id },
 			select: returnCPUObject
 		})
 		if (!cpu) {
-			throw new NotFoundException('storageCapacity not found')
+			throw new NotFoundException('cPU not found')
 		}
 		return cpu
 	}
 	async bySlug(slug: string) {
-		const cpu = await this.prisma.storageCapacity.findUnique({
+		const cpu = await this.prisma.cPU.findUnique({
 			where: {
 				slug
 			},
 			select: returnCPUObject
 		})
 		if (!cpu) {
-			throw new NotFoundException('storage capacity not found')
+			throw new NotFoundException('cPU not found')
 		}
 		return cpu
 	}
 	async getAll() {
-		return this.prisma.storageCapacity.findMany({
+		return this.prisma.cPU.findMany({
 			select: returnCPUObject
 		})
 	}
 	async create() {
-		return this.prisma.storageCapacity.create({
+		return this.prisma.cPU.create({
 			data: {
 				name: '',
 				slug: ''
@@ -44,7 +44,7 @@ export class CpuService {
 		})
 	}
 	async update(id: number, dto: CpuDto) {
-		return this.prisma.storageCapacity.update({
+		return this.prisma.cPU.update({
 			where: { id },
 			data: {
 				name: dto.name,
@@ -54,7 +54,7 @@ export class CpuService {
 	}
 
 	async delete(id: number) {
-		return this.prisma.storageCapacity.delete({
+		return this.prisma.cPU.delete({
 			where: { id }
 		})
 	}

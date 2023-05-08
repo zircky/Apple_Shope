@@ -9,34 +9,34 @@ export class DiagonalService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const diagonal = await this.prisma.storageCapacity.findUnique({
+		const diagonal = await this.prisma.diagonal.findUnique({
 			where: { id },
 			select: returnDiagonalObject
 		})
 		if (!diagonal) {
-			throw new NotFoundException('storageCapacity not found')
+			throw new NotFoundException('diagonal not found')
 		}
 		return diagonal
 	}
 	async bySlug(slug: string) {
-		const diagonal = await this.prisma.storageCapacity.findUnique({
+		const diagonal = await this.prisma.diagonal.findUnique({
 			where: {
 				slug
 			},
 			select: returnDiagonalObject
 		})
 		if (!diagonal) {
-			throw new NotFoundException('storage capacity not found')
+			throw new NotFoundException('diagonal not found')
 		}
 		return diagonal
 	}
 	async getAll() {
-		return this.prisma.storageCapacity.findMany({
+		return this.prisma.diagonal.findMany({
 			select: returnDiagonalObject
 		})
 	}
 	async create() {
-		return this.prisma.storageCapacity.create({
+		return this.prisma.diagonal.create({
 			data: {
 				name: '',
 				slug: ''
@@ -44,7 +44,7 @@ export class DiagonalService {
 		})
 	}
 	async update(id: number, dto: DiagonalDto) {
-		return this.prisma.storageCapacity.update({
+		return this.prisma.diagonal.update({
 			where: { id },
 			data: {
 				name: dto.name,
@@ -54,7 +54,7 @@ export class DiagonalService {
 	}
 
 	async delete(id: number) {
-		return this.prisma.storageCapacity.delete({
+		return this.prisma.diagonal.delete({
 			where: { id }
 		})
 	}
