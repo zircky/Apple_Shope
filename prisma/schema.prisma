@@ -87,6 +87,7 @@ model Category {
   slug String @unique
 
   products Product[]
+  models Models[]
 }
 
 model StorageCapacity {
@@ -105,9 +106,9 @@ model Colors {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  name String
-  rgba String
-  slug String @unique
+  name     String
+  colorCod String @map("color_cod")
+  slug     String @unique
 
   products Product[]
 }
@@ -117,8 +118,11 @@ model Models {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  name String @unique
-  slug String @unique
+  name    String @unique
+  slug    String @unique
+
+  category   Category? @relation(fields: [categoryId], references: [id])
+  categoryId Int?      @map("category_id")
 
   products Product[]
 }

@@ -9,34 +9,34 @@ export class RamService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const ram = await this.prisma.storageCapacity.findUnique({
+		const ram = await this.prisma.rAM.findUnique({
 			where: { id },
 			select: returnRAMObject
 		})
 		if (!ram) {
-			throw new NotFoundException('storageCapacity not found')
+			throw new NotFoundException('ram not found')
 		}
 		return ram
 	}
 	async bySlug(slug: string) {
-		const ram = await this.prisma.storageCapacity.findUnique({
+		const ram = await this.prisma.rAM.findUnique({
 			where: {
 				slug
 			},
 			select: returnRAMObject
 		})
 		if (!ram) {
-			throw new NotFoundException('storage capacity not found')
+			throw new NotFoundException('ram not found')
 		}
 		return ram
 	}
 	async getAll() {
-		return this.prisma.storageCapacity.findMany({
+		return this.prisma.rAM.findMany({
 			select: returnRAMObject
 		})
 	}
 	async create() {
-		return this.prisma.storageCapacity.create({
+		return this.prisma.rAM.create({
 			data: {
 				name: '',
 				slug: ''
@@ -44,7 +44,7 @@ export class RamService {
 		})
 	}
 	async update(id: number, dto: RamDto) {
-		return this.prisma.storageCapacity.update({
+		return this.prisma.rAM.update({
 			where: { id },
 			data: {
 				name: dto.name,
@@ -54,7 +54,7 @@ export class RamService {
 	}
 
 	async delete(id: number) {
-		return this.prisma.storageCapacity.delete({
+		return this.prisma.rAM.delete({
 			where: { id }
 		})
 	}

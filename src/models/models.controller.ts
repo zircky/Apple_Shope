@@ -27,6 +27,10 @@ export class ModelsController {
 	async getBySlug(@Param('slug') slug: string) {
 		return this.modelsService.bySlug(slug)
 	}
+	@Get('by-category/:categorySlug')
+	async getModelsByCategory(@Param('categorySlug') categorySlug: string) {
+		return this.modelsService.byCategory(categorySlug)
+	}
 
 	@Get(':id')
 	@Auth()

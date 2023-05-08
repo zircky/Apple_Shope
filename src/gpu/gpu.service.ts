@@ -9,34 +9,34 @@ export class GpuService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const gpu = await this.prisma.storageCapacity.findUnique({
+		const gpu = await this.prisma.gPU.findUnique({
 			where: { id },
 			select: returnGPUObject
 		})
 		if (!gpu) {
-			throw new NotFoundException('storageCapacity not found')
+			throw new NotFoundException('gpu not found')
 		}
 		return gpu
 	}
 	async bySlug(slug: string) {
-		const gpu = await this.prisma.storageCapacity.findUnique({
+		const gpu = await this.prisma.gPU.findUnique({
 			where: {
 				slug
 			},
 			select: returnGPUObject
 		})
 		if (!gpu) {
-			throw new NotFoundException('storage capacity not found')
+			throw new NotFoundException('gpu not found')
 		}
 		return gpu
 	}
 	async getAll() {
-		return this.prisma.storageCapacity.findMany({
+		return this.prisma.gPU.findMany({
 			select: returnGPUObject
 		})
 	}
 	async create() {
-		return this.prisma.storageCapacity.create({
+		return this.prisma.gPU.create({
 			data: {
 				name: '',
 				slug: ''
@@ -44,7 +44,7 @@ export class GpuService {
 		})
 	}
 	async update(id: number, dto: GpuDto) {
-		return this.prisma.storageCapacity.update({
+		return this.prisma.gPU.update({
 			where: { id },
 			data: {
 				name: dto.name,
@@ -54,7 +54,7 @@ export class GpuService {
 	}
 
 	async delete(id: number) {
-		return this.prisma.storageCapacity.delete({
+		return this.prisma.gPU.delete({
 			where: { id }
 		})
 	}

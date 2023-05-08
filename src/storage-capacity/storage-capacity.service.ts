@@ -14,7 +14,7 @@ export class StorageCapacityService {
 			select: returnStorageCapacityObject
 		})
 		if (!storageCapacity) {
-			throw new NotFoundException('storageCapacity not found')
+			throw new NotFoundException('storage Capacity not found')
 		}
 		return storageCapacity
 	}

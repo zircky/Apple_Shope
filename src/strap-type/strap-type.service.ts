@@ -9,34 +9,34 @@ export class StrapTypeService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const strapType = await this.prisma.storageCapacity.findUnique({
+		const strapType = await this.prisma.strapType.findUnique({
 			where: { id },
 			select: returnStrapTypeObject
 		})
 		if (!strapType) {
-			throw new NotFoundException('storageCapacity not found')
+			throw new NotFoundException('strapType not found')
 		}
 		return strapType
 	}
 	async bySlug(slug: string) {
-		const strapType = await this.prisma.storageCapacity.findUnique({
+		const strapType = await this.prisma.strapType.findUnique({
 			where: {
 				slug
 			},
 			select: returnStrapTypeObject
 		})
 		if (!strapType) {
-			throw new NotFoundException('storage capacity not found')
+			throw new NotFoundException('strapType not found')
 		}
 		return strapType
 	}
 	async getAll() {
-		return this.prisma.storageCapacity.findMany({
+		return this.prisma.strapType.findMany({
 			select: returnStrapTypeObject
 		})
 	}
 	async create() {
-		return this.prisma.storageCapacity.create({
+		return this.prisma.strapType.create({
 			data: {
 				name: '',
 				slug: ''
@@ -44,7 +44,7 @@ export class StrapTypeService {
 		})
 	}
 	async update(id: number, dto: StrapTypeDto) {
-		return this.prisma.storageCapacity.update({
+		return this.prisma.strapType.update({
 			where: { id },
 			data: {
 				name: dto.name,
@@ -54,7 +54,7 @@ export class StrapTypeService {
 	}
 
 	async delete(id: number) {
-		return this.prisma.storageCapacity.delete({
+		return this.prisma.strapType.delete({
 			where: { id }
 		})
 	}

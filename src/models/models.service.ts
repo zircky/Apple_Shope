@@ -9,52 +9,73 @@ export class ModelsService {
 	constructor(private prisma: PrismaService) {}
 
 	async byId(id: number) {
-		const model = await this.prisma.storageCapacity.findUnique({
+		const model = await this.prisma.models.findUnique({
 			where: { id },
 			select: returnModelsObject
 		})
 		if (!model) {
-			throw new NotFoundException('storageCapacity not found')
+			throw new NotFoundException('model not found')
 		}
 		return model
 	}
 	async bySlug(slug: string) {
-		const model = await this.prisma.storageCapacity.findUnique({
+		const model = await this.prisma.models.findUnique({
 			where: {
 				slug
 			},
 			select: returnModelsObject
 		})
 		if (!model) {
-			throw new NotFoundException('storage capacity not found')
+			throw new NotFoundException('model not found')
 		}
 		return model
 	}
+	
+	async byCategory(categorySlug: string) {
+		const products = await this.prisma.models.findMany({
+			where: {
+				category: {
+					slug: categorySlug
+				}
+			},
+			select: returnModelsObject
+		})
+		if (!products) throw new NotFoundException('products not found')
+		return products
+	}
+
 	async getAll() {
-		return this.prisma.storageCapacity.findMany({
+		return this.prisma.models.findMany({
 			select: returnModelsObject
 		})
 	}
 	async create() {
-		return this.prisma.storageCapacity.create({
+		return this.prisma.models.create({
 			data: {
 				name: '',
-				slug: ''
+				slug: '',
+				
 			}
 		})
 	}
 	async update(id: number, dto: ModelDto) {
-		return this.prisma.storageCapacity.update({
+		const {categoryId} = dto
+		return this.prisma.models.update({
 			where: { id },
 			data: {
 				name: dto.name,
-				slug: generateSlug(dto.name)
+				slug: generateSlug(dto.name),
+				category: {
+					connect: {
+						id: categoryId
+					}
+				}
 			}
 		})
 	}
 
 	async delete(id: number) {
-		return this.prisma.storageCapacity.delete({
+		return this.prisma.models.delete({
 			where: { id }
 		})
 	}
