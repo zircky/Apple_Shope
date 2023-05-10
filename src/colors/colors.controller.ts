@@ -27,11 +27,6 @@ export class ColorsController {
 		return this.colorsService.bySlug(slug)
 	}
 
-	// @Get('by-colorCod/:colorCod')
-	// async getByColorCod(@Param('colorCod') colorCod: string) {
-	// 	return this.colorsService.byColorCod(colorCod)
-	// }
-
 	@Get(':id')
 	@Auth()
 	async getById(@Param('id') id: string) {
