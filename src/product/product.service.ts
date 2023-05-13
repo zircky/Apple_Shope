@@ -106,7 +106,18 @@ export class ProductService {
 		if (!products) throw new NotFoundException('products not found')
 		return products
 	}
-
+	// async byCategoryId(categoryId: string) {
+	// 		const products = await this.prisma.product.findMany({
+	// 			where: {
+	// 				category: {
+	// 					slug: categoryId
+	// 				}
+	// 			},
+	// 			select: productReturn0bjectFullest
+	// 		})
+	// 		if (!products) throw new NotFoundException('products not found')
+	// 		return products
+	// 	}
 	async byStorageCapacity(storageCapacitySlug: string) {
 		const products = await this.prisma.product.findMany({
 			where: {
