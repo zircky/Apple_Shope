@@ -85,6 +85,7 @@ model Category {
 
   name String @unique
   slug String @unique
+  images String? 
 
   products Product[]
   models Models[]

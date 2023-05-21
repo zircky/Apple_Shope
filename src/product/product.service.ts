@@ -31,24 +31,28 @@ export class ProductService {
 		} else {
 			prismaSort.push({ createdAt: 'desc' })
 		}
-
+		
 		const prismaSearchTermFillter: Prisma.ProductWhereInput = searchTerm
 			? {
 					OR: [
 						{
-							category: {
+							{category: {
+								name: {
+										contains: searchTerm,
+										mode: 'insensitive'
+								}
+							},},
+							{
 								name: {
 									contains: searchTerm,
 									mode: 'insensitive'
+								},
+							},
+							{
+								description: {
+									contains: searchTerm,
+									mode: 'insensitive'
 								}
-							},
-							name: {
-								contains: searchTerm,
-								mode: 'insensitive'
-							},
-							description: {
-								contains: searchTerm,
-								mode: 'insensitive'
 							}
 						}
 					]
@@ -258,4 +262,5 @@ export class ProductService {
 			where: { id }
 		})
 	}
+
 }
