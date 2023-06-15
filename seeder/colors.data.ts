@@ -118,5 +118,11 @@ export const colorsData = [
 		name: 'Тихоокеанский синий',
 		colorCod: '#113d67',
 		slug: 'pacific-blue'
+	},
+	{
+		id:21,
+		name: 'Розовая золото',
+		colorCod: '#B76E79',
+		slug: 'rose-gold'
 	}
 ]

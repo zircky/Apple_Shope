@@ -18,6 +18,8 @@ model User {
   email    String @unique
   password String
 
+  isAdmin Boolean @default(false) @map("is_admin")
+
   name       String @unique
   avatarPath String @default("/uploads/default-avatar.png") @map("avatar_path")
 
@@ -37,6 +39,21 @@ model Product {
   description String
   price       Int
   images      String[]
+
+  wirelessInterfaces      String? @map("wireless_interfaces") // Беспроводные интерфейсы
+  mainCamera              String? @map("main_camera") // Разрешение основной камеры
+  os                      String? // Операционная система
+  screenResolution        String? @map("screen_resolution") // Разрешение экрана
+  displayUpdateRate       String? @map("display_update_rate") // Частота обновления экрана
+  numberMainCameras       String? @map("number_main_cameras") // Количество основных камер
+  mainCameraFeatures      String? @map("main_camera_features") // Характеристики основной камеры
+  mainCameraFeaturesTwo   String? @map("main_camera_features_two") // Характеристики основной камеры 2
+  mainCameraFeaturesThree String? @map("main_camera_features_three") // Характеристики основной камеры 3
+  NumberSIMCards          String? @map("number_sim_cards") // Количество SIM-карт
+  BatteryCapacity         String? @map("battery_capacity") // Емкость аккумулятора
+  videotaping             String? @map("videotaping") // Видеосъемка
+  screenFeatures          String? @map("screen_features") // Особенности экрана
+  ppi                     String? // Число пикселей на дюйм (PPI)
 
   orderItems OrderItem[]
   reviews    Review[]
@@ -83,12 +100,12 @@ model Category {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  name String @unique
-  slug String @unique
-  images String? 
+  name   String  @unique
+  slug   String  @unique
+  images String?
 
   products Product[]
-  models Models[]
+  models   Models[]
 }
 
 model StorageCapacity {
@@ -119,8 +136,8 @@ model Models {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  name    String @unique
-  slug    String @unique
+  name String @unique
+  slug String @unique
 
   category   Category? @relation(fields: [categoryId], references: [id])
   categoryId Int?      @map("category_id")
@@ -228,6 +245,7 @@ model Order {
   status EnumOrderStatus @default(PENDING)
 
   items OrderItem[]
+  total Int
 
   user   User @relation(fields: [userId], references: [id])
   userId Int  @map("user_id")

@@ -12,6 +12,7 @@ import { ReviewService } from './review.service'
 import { Auth } from '../auth/decorators/auth.decorator'
 import { CurrentUser } from '../auth/decorators/user.decorator'
 import { ReviewDto } from './review.dto'
+import { ProductService } from '../product/product.service'
 
 @Controller('reviews')
 export class ReviewController {
@@ -19,6 +20,7 @@ export class ReviewController {
 
 	@UsePipes(new ValidationPipe())
 	@Get()
+	@Auth('admin')
 	async getAll() {
 		return this.reviewService.getAll()
 	}

@@ -1,4 +1,4 @@
-import {IsEmail, MinLength, IsString} from 'class-validator'
+import { IsEmail, MinLength, IsString, IsOptional } from 'class-validator'
 
 export class  AuthDto {
     @IsEmail()
@@ -9,4 +9,8 @@ export class  AuthDto {
     })
     @IsString()
     password: string
+
+    @IsOptional()
+    @IsString()
+    avatarPath?:string
 }

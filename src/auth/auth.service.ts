@@ -10,10 +10,11 @@ import { AuthDto } from './dto/auth.dto'
 import { hash, verify } from 'argon2'
 import { JwtService } from '@nestjs/jwt'
 import { User } from '@prisma/client'
+import { UserService } from '../user/user.service'
 
 @Injectable()
 export class AuthService {
-	constructor(private prisma: PrismaService, private jwt: JwtService) {}
+	constructor(private prisma: PrismaService, private jwt: JwtService, private userService:UserService) {}
 
 	async login(dto: AuthDto) {
 		const user = await this.validateUser(dto)
@@ -29,11 +30,10 @@ export class AuthService {
 		const result = await this.jwt.verifyAsync(refreshToken)
 		if (!result) throw new UnauthorizedException('Invalid refresh token')
 
-		const user = await this.prisma.user.findUnique({
-			where: {
-				id: result.id
-			}
+		const user = await this.userService.byId(result.id, {
+			isAdmin: true
 		})
+
 		const tokens = await this.issueTokens(user.id)
 
 		return {
@@ -55,7 +55,7 @@ export class AuthService {
 			data: {
 				email: dto.email,
 				name: faker.name.firstName(),
-				avatarPath: faker.image.avatar(),
+				avatarPath: dto.avatarPath,
 				phone: faker.phone.number('+7 (###) ###-##-##'),
 				password: await hash(dto.password)
 			}
@@ -81,10 +81,11 @@ export class AuthService {
 		return { accessToken, refreshToken }
 	}
 
-	private returnUserFields(user: User) {
+	private returnUserFields(user: Partial<User>) {
 		return {
 			id: user.id,
-			email: user.email
+			email: user.email,
+			isAdmin: user.isAdmin
 		}
 	}
 

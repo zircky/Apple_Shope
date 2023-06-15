@@ -30,7 +30,10 @@ export const productReturn0bject: Prisma.ProductSelect = {
 	size: { select: returnSizeObject },
 	strapType: { select: returnStrapTypeObject },
 	reviews: {
-		select: returnReviewObject
+		select: returnReviewObject,
+		orderBy: {
+			createdAt: 'desc'
+		}
 	}
 }
 export const productReturn0bjectFullest: Prisma.ProductSelect = {

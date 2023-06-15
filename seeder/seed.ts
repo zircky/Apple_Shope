@@ -35,9 +35,9 @@ async function main() {
 	await prisma.gPU.createMany({
 		data: gpuData
 	})
-	await prisma.rAM.createMany({
-		data: ramData
-	})
+	// await prisma.rAM.createMany({
+	// 	data: ramData
+	// })
 	await prisma.models.createMany({
 		data: modelsData
 	})
