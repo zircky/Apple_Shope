@@ -21,7 +21,7 @@ model User {
   isAdmin Boolean @default(false) @map("is_admin")
 
   name       String @unique
-  avatarPath String @default("/uploads/default-avatar.png") @map("avatar_path")
+  avatarPath String @default("/uploads/images/auth_img/default-avatar.png") @map("avatar_path")
 
   phone     String    @default("")
   orders    Order[]
